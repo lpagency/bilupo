@@ -81,7 +81,7 @@ $(document).ready(function()
         'https://apibodegas.loadingplay.com/');
     var checkout_url = $.environmentVar(
         'https://pay.loadingplay.com/',
-        'https://lpcheckout.ondev.today/',
+        'http://lpcheckout.ondev.today/',
         'https://pay.loadingplay.com');
     var app_public = $.environmentVar(42,42,42);
     var site_name = $.environmentVar('bilupo', 'bilupo', 'bilupo');
