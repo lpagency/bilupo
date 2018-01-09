@@ -51,7 +51,7 @@ $(document).ready(function()
     var filtro = $(".filtrosMensaje").val();
     var filtro2 = $(".filtrosMensaje2").val();
     var filtro3 = $(".filtrosMensaje3").val();
-    filtro = filtro.replace("ñ","n");
+    // filtro = filtro.replace("ñ","n");
     filtro = filtro.replace(" ","_");
     filtro = filtro.replace("-","_");
     filtro = filtro.replace("/","_");
