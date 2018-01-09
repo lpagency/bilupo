@@ -62,18 +62,18 @@ $(document).ready(function()
     // filtro2 = filtro2.replace("-","_");
     // filtro3 = filtro3.replace("/","_");
 
-    if(filtro != "Todo" && filtro != "")
-    {
-        window.tag.push(filtro.toLowerCase());
-    }
-    if(filtro2 != "Todo" && filtro2 != "")
-    {
-        window.tag.push(filtro2.toLowerCase());
-    }
-    if(filtro3 != "Todo" && filtro3 != "")
-    {
-        window.tag.push(filtro3.toLowerCase());
-    }
+    // if(filtro != "Todo" && filtro != "")
+    // {
+    //     window.tag.push(filtro.toLowerCase());
+    // }
+    // if(filtro2 != "Todo" && filtro2 != "")
+    // {
+    //     window.tag.push(filtro2.toLowerCase());
+    // }
+    // if(filtro3 != "Todo" && filtro3 != "")
+    // {
+    //     window.tag.push(filtro3.toLowerCase());
+    // }
 
     var base_url = $.environmentVar(
         'https://apibodegas.loadingplay.com/',
