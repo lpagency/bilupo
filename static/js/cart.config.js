@@ -52,15 +52,15 @@ $(document).ready(function()
     var filtro2 = $(".filtrosMensaje2").val();
     var filtro3 = $(".filtrosMensaje3").val();
     // filtro = filtro.replace("ñ","n");
-    filtro = filtro.replace(" ","_");
-    filtro = filtro.replace("-","_");
-    filtro = filtro.replace("/","_");
-    filtro2 = filtro2.replace(" ","_");
-    filtro2 = filtro2.replace("-","_");
-    filtro2 = filtro2.replace("/","_");
-    filtro3 = filtro3.replace(" ","_");
-    filtro2 = filtro2.replace("-","_");
-    filtro3 = filtro3.replace("/","_");
+    // filtro = filtro.replace(" ","_");
+    // filtro = filtro.replace("-","_");
+    // filtro = filtro.replace("/","_");
+    // filtro2 = filtro2.replace(" ","_");
+    // filtro2 = filtro2.replace("-","_");
+    // filtro2 = filtro2.replace("/","_");
+    // filtro3 = filtro3.replace(" ","_");
+    // filtro2 = filtro2.replace("-","_");
+    // filtro3 = filtro3.replace("/","_");
 
     if(filtro != "Todo" && filtro != "")
     {
