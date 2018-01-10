@@ -41,8 +41,8 @@ function showDivs(n) {
   for (i = 0; i < dots.length; i++) {
      dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
   }
-  // x[slideIndex-1].style.display = "block";
-  // dots[slideIndex-1].className += " w3-opacity-off";
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
   
 }
 </script>
@@ -85,11 +85,11 @@ $(document).ready(function() {
 
     var base_url = $.environmentVar(
         'https://apibodegas.loadingplay.com/',
-        'https://apibodegas.loadingplay.com/',
+        'https://apibodegas.ondev.today/',
         'https://apibodegas.loadingplay.com/');
     var checkout_url = $.environmentVar(
         'https://pay.loadingplay.com/',
-        'https://pay.loadingplay.com/',
+        'https://lpcheckout.ondev.today/',
         'https://pay.loadingplay.com');
     var app_public = $.environmentVar(42,42,42);
     var site_name = $.environmentVar('bilupo', 'bilupo', 'bilupo');
@@ -217,7 +217,7 @@ $(document).ready(function() {
 
 {% block css%}
 <link rel="stylesheet" href="{{site_base}}/static/style.css" >
-<link rel="stylesheet" type="text/css" href="{{ site_base }}/common/js/bower/bodegas.client/dist/bodegas.client.css">
+<link rel="stylesheet" type="text/css" href="{{ site_base }}/common/js/bodegas/dist/bodegas.client.css">
 <link rel="stylesheet" href="{{site_base}}/static/busca.css" >
 <link rel="stylesheet" href="{{site_base}}/static/ocul.css" >
 {% end %}
