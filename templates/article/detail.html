@@ -70,7 +70,6 @@
 .textoTip{
     text-align: left;
     margin-top: 20%;
-    width: 60%;
 }
  @media only screen and (max-width: 1200px) {
     /* For mobile phones: */
@@ -196,14 +195,14 @@
         <div class="col-md-12" style="padding: 50px; background-color: white;">
             <div class="contenidoRol col-md-6 col-xs-12 zig">
                 <img class="mini-articulos mini-articulos2" src="{{ article["thumb_500"] }}" />
-                <a href="{{ site_base }}/articulos"><img src="https://84static.loadingplay.com/static/images/7a9c37e1825084cf323282aa81028076_flecha.png" class="flecha hidden-md hidden-sm hidden-xs" style="margin-left: 23%;width: 15%;"></a>
+                <a href="{{ site_base }}/articulos"><img src="https://84static.loadingplay.com/static/images/7a9c37e1825084cf323282aa81028076_flecha.png" class="flecha hidden-md hidden-sm hidden-xs" style="width: 15%;position: relative;right: 355px;top: 250px;"></a>
             </div>
             <div class="col-md-6 col-xs-12 lef contenidoTips">
                 <h1 class="text-left tres tituloRol" style="color: #E53623;margin-top: -4%;;margin-bottom: -4.7%"> {{ article["title"] }} </h1>
-                <hr class="hrTips" style="background-color:#94b7bb; height: 2px;width: 630px;position: absolute; top: 43px;left: -18%;" />
+                <hr class="hrTips" style="background-color: #94b7bb;height: 2px;width: 580px;position: absolute;top: 43px;left: -7.8%;" />
                 <p class="indiceBil" style="font-size: small; color: #94b7bb;float:left;margin-top: 8%"><i>por<b> Biluppo</b></i></p>
 
-                <p class="indiceBil2" style="font-size: small;font-style: italic; color: #94b7bb;float: right;margin-right: 20%;margin-top: 8%">{{ article['creation_date'].strftime("%d") }} de {{ get_month(article['creation_date'].strftime("%B")) }}, {{ article['creation_date'].strftime("%Y") }}</p>
+                <p class="indiceBil2" style="font-size: small;font-style: italic; color: #94b7bb;float: right;margin-top: 8%">{{ article['creation_date'].strftime("%d") }} de {{ get_month(article['creation_date'].strftime("%B")) }}, {{ article['creation_date'].strftime("%Y") }}</p>
                 <p class="textoTip text-left cuatro ellipsis multiline"><b>{{ article["caption"] }} </b></p>
                 <br>
                 <div id="description" class="p-art dan" style="color: grey; font-family: 'Open Sans', sans-serif;width: 91%;">
