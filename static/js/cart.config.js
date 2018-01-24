@@ -51,29 +51,29 @@ $(document).ready(function()
     var filtro = $(".filtrosMensaje").val();
     var filtro2 = $(".filtrosMensaje2").val();
     var filtro3 = $(".filtrosMensaje3").val();
-    // filtro = filtro.replace("ñ","n");
-    // filtro = filtro.replace(" ","_");
-    // filtro = filtro.replace("-","_");
-    // filtro = filtro.replace("/","_");
-    // filtro2 = filtro2.replace(" ","_");
-    // filtro2 = filtro2.replace("-","_");
-    // filtro2 = filtro2.replace("/","_");
-    // filtro3 = filtro3.replace(" ","_");
-    // filtro2 = filtro2.replace("-","_");
-    // filtro3 = filtro3.replace("/","_");
+    filtro = filtro.replace("ñ","n");
+    filtro = filtro.replace(" ","_");
+    filtro = filtro.replace("-","_");
+    filtro = filtro.replace("/","_");
+    filtro2 = filtro2.replace(" ","_");
+    filtro2 = filtro2.replace("-","_");
+    filtro2 = filtro2.replace("/","_");
+    filtro3 = filtro3.replace(" ","_");
+    filtro2 = filtro2.replace("-","_");
+    filtro3 = filtro3.replace("/","_");
 
-    // if(filtro != "Todo" && filtro != "")
-    // {
-    //     window.tag.push(filtro.toLowerCase());
-    // }
-    // if(filtro2 != "Todo" && filtro2 != "")
-    // {
-    //     window.tag.push(filtro2.toLowerCase());
-    // }
-    // if(filtro3 != "Todo" && filtro3 != "")
-    // {
-    //     window.tag.push(filtro3.toLowerCase());
-    // }
+    if(filtro != "Todo" && filtro != "")
+    {
+        window.tag.push(filtro.toLowerCase());
+    }
+    if(filtro2 != "Todo" && filtro2 != "")
+    {
+        window.tag.push(filtro2.toLowerCase());
+    }
+    if(filtro3 != "Todo" && filtro3 != "")
+    {
+        window.tag.push(filtro3.toLowerCase());
+    }
 
     var base_url = $.environmentVar(
         'https://apibodegas.loadingplay.com/',
