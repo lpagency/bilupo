@@ -86,8 +86,7 @@
 .col-md-12:nth-child(even)>.lef{
     margin-top: 115px;
     width: 47%;
-   /* left: -192px;*/
-    left: -74px;
+    right: 174px;
 }
 
 .col-md-12:nth-child(3n)>.zig{
