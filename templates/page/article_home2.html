@@ -106,17 +106,17 @@
 </style>
 <div class="col-md-12 col-sm-12 col-xs-12 detalleDeArticulos" style="width: 33%">
 
-    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 space10 h_detail_prod">
+    <div class="space10 h_detail_prod">
         <div class="product product-thumb cuadro_product">
                 <div class="box-4 caja-productos" style="padding-bottom:10px;">
               <img class="mini-articulos" src="{{ article["thumb_500"] }}" style="width: 307px; height: 205px; object-fit: scale-down;" />
                </div>      
             <div class="contenidoArticulos" style="padding-bottom: 20px; left: 55%"> 
-            <p class="fechaArticulo" style="font-size: small;font-style: italic;color: grey;margin-left: 25%;margin-top: 1%;width: 140%;">{{ article['creation_date'].strftime("%d") }} de {{ get_month(article['creation_date'].strftime("%B")) }}, {{ article['creation_date'].strftime("%Y") }}</p>
+            <p class="fechaArticulo" style="font-size: small;font-style: italic;color: grey;margin-top: 1%;">{{ article['creation_date'].strftime("%d") }} de {{ get_month(article['creation_date'].strftime("%B")) }}, {{ article['creation_date'].strftime("%Y") }}</p>
             <a href="{{ site_base }}/article/detail/a/{{ article["id"] }}">  
-                <h2 class="text-left tres tituloTipsDeja" style="width: 300px;margin-left: 25%;font-size:24px;margin-top: 0"> {{ article["title"] }} </h2>
+                <h2 class="text-left tres tituloTipsDeja" style="font-size:24px;margin-top: 0"> {{ article["title"] }} </h2>
             </a>
-                <h5 class="porBil" style="color: #94b7bb; width: 200px;margin-left: 25%;margin-top: 0;"><i>por</i><b><i> Biluppo</i></b></h5>
+                <h5 class="porBil" style="color: #94b7bb; margin-top: 0;"><i>por</i><b><i> Biluppo</i></b></h5>
                 <div class="clearfix"></div>
             </div>
         </div>
