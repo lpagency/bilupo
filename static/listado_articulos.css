@@ -106,7 +106,6 @@
 .tres{
     font-size: 33px;
     position: relative;
-    left: 63px;
     width: 65%;
     margin-top: 57px;
     font-weight: 400;
@@ -136,7 +135,6 @@
 .box-4{
     position: relative;
     overflow: hidden;
-    height: 400px;
 }
 
 .box-4 .mask{
