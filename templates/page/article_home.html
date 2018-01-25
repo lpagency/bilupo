@@ -141,7 +141,7 @@ font-family: 'Damion', cursive;
             
     <div class="col-md-6 col-xs-12 lef" style="position: relative; right: -3px;">
         <h1 class="text-left tres tituloRol" style="font-size: 39px; letter-spacing: 1px; color: #E53623; margin-top: 5%;"> {{ article["title"] }} </h1>
-        <hr class="hrTips" style="background-color:#94b7bb; height: 2px;width: 450px;position: absolute;top: 22%;left: -1.2%" />
+        <hr class="hrTips" style="background-color:#94b7bb; height: 2px;width: 450px;position: absolute;top: 34%;left: -1.2%" />
         <p class="indiceBil" style="font-size: small; color: #94b7bb;float:left;margin-top: 1%"><i>por<b> Biluppo</b></i></p>
         <p class="indiceBil2" style="font-size: small;font-style: italic; color: #94b7bb;float: right;margin-right: 20%;margin-top: 1%">{{ article['creation_date'].strftime("%d") }} de {{ get_month(article['creation_date'].strftime("%B")) }}, {{ article['creation_date'].strftime("%Y") }}</p>
         <a href="{{ site_base }}/article/detail/a/{{ article["id"] }}">
