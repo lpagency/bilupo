@@ -79,14 +79,14 @@
 
 
 .col-md-12:nth-child(even)>.zig{
-    left: 31px;
+    left: 145px;
     margin-top: 62px;
 }
 
 .col-md-12:nth-child(even)>.lef{
     margin-top: 115px;
     width: 47%;
-    right: 174px;
+    right: 60px;
 }
 
 .col-md-12:nth-child(3n)>.zig{
