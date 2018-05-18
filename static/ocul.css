@@ -270,12 +270,27 @@
 {
     .boton-comprar-detalle
     {
-        margin-left: 3%;
+        margin-left: 30%;
     }
 
     .Det
     {
-        margin-left: 5% !important;
+        margin-left: 0%;
+    }
+
+    .name-line
+    {
+        text-align: center;
+    }
+
+    .toy
+    {
+        text-align: center;
+    }
+
+    .w3-col.s4
+    {
+        margin: 0% 30%;
     }
 
     .categoriasProd.mik
@@ -296,7 +311,10 @@
 
     .imagenesDetalle
     {
-        margin-right: 24%;
+        margin-right: 0%;
+        left: 0px;
+        max-width: 100%;
+        object-position: inherit;
     }
 
     .imagenesChicas
@@ -312,17 +330,18 @@
     .detallesDesc
     {
         top: 30px;
-        margin-left: 21.5%;
+        margin-left: 0%;
     }
 
     .precioDetalle
     {
-        margin-left: 18%;
+        margin-left: 0%;
+        text-align: center;
     }
 
     .ver-mas-desc
     {
-        margin-left: 16%;
+        margin-left: 42%;
     }
 }
 
