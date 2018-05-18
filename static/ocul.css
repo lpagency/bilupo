@@ -1,3 +1,716 @@
-.ocul{
-	display: none;
+.ocultar-detalle-producto
+{
+    display: none;
+}
+
+#btn-ver-mas
+{
+    background: #94b7bb;
+    border: 0px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    height: 27px;
+    width: 100px;
+    margin-top: 5%;
+}
+
+.img-hidden-responsive
+{
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: 220px;
+}
+
+.mySlides
+{
+    display: none;
+}
+
+.demo
+{
+    cursor: pointer;
+}
+
+.detallesDesc
+{
+    top: 0px;
+    left: 0px;
+}
+
+.product-detail.container
+{
+    padding-top: 100px;
+    margin-left: 4%;
+}
+
+.clearfix-prefooter
+{
+    padding-bottom: 150px;
+}
+
+.clearfix-product-detail
+{
+    padding-top:85px;
+}
+
+.contenedor
+{
+    max-width: 1280px;
+}
+
+.detail-description
+{
+    font-family: 'Open Sans', sans-serif;
+    height: 107px;
+    overflow: hidden;
+    font-size: 13px;
+    margin-bottom: 0px;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.modal-body-description
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cont
+{
+    padding-top: 44px;
+}
+
+.ardilla-img
+{
+    margin-top: -5%;
+}
+
+.detail-price
+{
+    color: #E53623;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-top: 23px;
+}
+
+.toy
+{
+    color: #E53623;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    height: 15px;
+}
+
+.imgPeque
+{
+    padding-top: 100px;
+    padding-right: 57px;
+}
+
+.name-line
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: grey;
+    text-transform: uppercase;
+}
+
+.clearfix-hidden
+{
+    padding: 10px;
+}
+
+.clearfix-detail
+{
+    padding-top: 44px;
+}
+
+.categoriasProd.mik
+{
+    color: #E53623;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    float: left;
+    position: relative;
+    left: 120px;
+}
+
+.w3-col.s4
+{
+    margin-left: 50%;
+    margin-top: 2%
+}
+
+#btn-ver-mas:hover
+{
+    background-color: #E53623;
+}
+
+.modal-description
+{
+    background-color: rgba(132, 226, 255, 0.5);
+}
+
+.carroComprar
+{
+    width: 141px;
+    height: 27px;
+    padding:auto;
+    position: relative;
+    z-index: 10;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.boton-comprar-detalle
+{
+    width: 130px;
+    height: 27px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    bottom:15px; 
+}
+
+#fondo_detalle
+{
+    background-image: url("https://84static.loadingplay.com/static/images/5a39274ffd3e2ee89e6c73862211ef6a_Biluppo_PNGs_Web_7-24.png");
+}
+
+.imagenesDetalle
+{
+    height: 200px;
+    object-fit: contain;
+    left: 200px;
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    object-position: 100% center;
+    display: block;
+}
+
+.imagenesChicas
+{
+    width: 62px;
+    height: 59px;
+    object-fit: cover;
+    margin-left: 2px;
+    margin-top: 20px;
+    float: left;
+}
+
+@media only screen and (max-width:1200px)
+{
+    .product-detail.container
+    {
+        margin-left: 6%;
+    }
+
+    .imagenesChicas
+    {
+        width: 49px;
+        height: 50px;
+        object-fit: cover;
+        margin-left: 9px;
+        margin-top: 20px;
+    }
+
+    .w3-col.s4
+    {
+        margin-left: 54%;
+    }
+
+    .categoriasProd.mik
+    {
+        font-size: 11px;
+        width: 43%;
+        margin-bottom: 19px;
+    }
+}
+
+@media only screen and (max-width: 1030px)
+{
+    .detallesDesc
+    {
+        margin-left: 26.5%;
+    }
+
+    .precioDetalle
+    {
+        margin-left: 32%;
+    }
+
+    .boton-comprar-detalle
+    {
+        margin-left: 9%;
+    }
+
+    .cont
+    {
+        margin-right: 15%;
+    }
+
+    .ver-mas-desc
+    {
+        margin-left: 28%;
+    }
+}
+
+@media only screen and (max-width:768px)
+{
+    .boton-comprar-detalle
+    {
+        margin-left: 30%;
+    }
+
+    .Det
+    {
+        margin-left: 0%;
+    }
+
+    .name-line
+    {
+        text-align: center;
+    }
+
+    .toy
+    {
+        text-align: center;
+    }
+
+    .w3-col.s4
+    {
+        margin: 0% 30%;
+    }
+
+    .categoriasProd.mik
+    {
+        margin-left: 26%;
+        margin-top: 67%;
+    }
+
+    .product-detail.container
+    {
+        margin-left: 0;
+    }
+
+    .cont
+    {
+        margin-right: 48%;
+    }
+
+    .imagenesDetalle
+    {
+        margin-right: 0%;
+        left: 0px;
+        max-width: 100%;
+        object-position: inherit;
+    }
+
+    .imagenesChicas
+    {
+        float: inherit;
+    }
+
+    .imgPeque
+    {
+        display: none;
+    }
+
+    .detallesDesc
+    {
+        top: 30px;
+        margin-left: 0%;
+    }
+
+    .precioDetalle
+    {
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    .ver-mas-desc
+    {
+        margin-left: 42%;
+    }
+}
+
+@media only screen and (max-width: 767px)
+{
+    .imagenesDetalle
+    {
+        margin-right: 11%;
+    }
+
+    .categoriasProd.mik
+    {
+        margin-left: 26%;
+        margin-top: 3%;
+    }
+
+    .detallesDesc
+    {
+        margin-left: 17.5%;
+    }
+
+    .precioDetalle
+    {
+        margin-left: 23%;
+    }
+
+    .boton-comprar-detalle
+    {
+        margin-left: 8%;
+    }
+
+    .cont
+    {
+        margin-left: 8%;
+    }
+
+    .Det
+    {
+        margin-left: -2% !important;
+    }
+
+    .ver-mas-desc
+    {
+        margin-left: 21%;
+    }
+}
+
+@media only screen and (max-width: 700px)
+{
+    .imagenesDetalle
+    {
+        margin-right: 6%;
+    }
+
+    .w3-col.s4
+    {
+        margin-left: 56%;
+    }
+
+    .detallesDesc
+    {
+        margin-left: 0.5%;
+    }
+
+    .precioDetalle
+    {
+        margin-left: 2%;
+    }
+
+    .cont
+    {
+        margin-right: 21%;
+        margin-left: 20%;
+    }
+
+    .alinear
+    {
+        text-align: center;
+    }
+
+    .product-detail.container
+    {
+        margin-left: 0%;
+    }
+
+    .toy
+    {
+        text-align: center;
+    }
+
+    .cu
+    {
+        text-align: center !important;
+    }
+
+    .ver-mas-desc
+    {
+        margin-left: 3.5%;
+        text-align: center;
+        left: 0px;
+        position: relative;
+    }
+
+    .boton-comprar-detalle
+    {
+        margin-left: 25%;
+    }
+
+    .categoriasProd.mik
+    {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 568px)
+{
+    #boton_slide
+    {
+        width: 10%;
+        left: 71.4%;
+    }
+
+    .Det
+    {
+        margin-left: 0% !important;
+    }
+
+    .w3-col.s4
+    {
+        margin-left: 49%;
+    }
+
+    .categoriasProd.mik
+    {
+        margin-left: -52%;
+    }
+
+    .boton-comprar-detalle
+    {
+        margin-left: 20%;
+    }
+
+    .detallesDesc
+    {
+        width: 90%;
+        margin-left: 3.5%;
+    }
+
+    .cont
+    {
+        margin-left: 20%;
+    }
+
+    #btn-ver-mas
+    {
+        margin-left: 1.5%;
+    }
+
+    .carroComprar
+    {
+        right: 1px;
+        top: 1px;
+    }
+}
+
+@media only screen and (max-width: 550px)
+{
+    .boton-comprar-detalle
+    {
+        margin-left: 20%;
+    }
+
+    .categoriasProd.mik
+    {
+        margin-top: 5%;
+        margin-left: -12%;
+    }
+
+    .cont
+    {
+        margin-left: 13%;
+        width: 77%;
+    }
+}
+
+@media only screen and (max-width: 480px)
+{
+    .w3-col.s4
+    {
+        margin-left: 26%;
+    }
+
+    #btn-ver-mas
+    {
+        margin-left: 0%;
+    }
+
+    .carroComprar
+    {
+        right: -115px;
+        top: 6px;
+        width: 131px;
+    }
+
+    .boton-comprar-detalle
+    {
+        margin-left: 0%;
+    }
+
+    .categoriasProd.mik
+    {
+        text-align: center;
+        width: 100%;
+    }
+
+    .precioDetalle
+    {
+        margin-left: 0%;
+    }
+}
+
+@media only screen and (max-width: 440px)
+{
+    .carroComprar
+    {
+        right: -103px;
+        top: 6px;
+        width: 131px;
+    }
+
+    .categoriasProd.mik
+    {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 414px)
+{
+    .carroComprar
+    {
+        right: -18px;
+        top: 0px;
+        width: 131px;
+    }
+
+    .categoriasProd.mik
+    {
+        text-align: center;
+        width: 100%;
+    }
+
+    .imagenesChicas
+    {
+        width: 30%;
+        height: auto;
+    }
+
+    .boton-comprar-detalle
+    {
+        top: 0px;
+        position: relative;
+    }
+
+    .imagenesDetalle
+    {
+        max-width: 100%;
+        width: 100%;
+        object-position: inherit;
+        left: 0px;
+    }
+}
+
+@media only screen and (max-width: 400px)
+{
+    .carroComprar
+    {
+        right: -92px;
+        top: 6px;
+        width: 131px;
+    }
+
+    .categoriasProd.mik
+    {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 375px)
+{
+    .carroComprar
+    {
+        right: -150px;
+        top: -26px;
+    }
+
+    .boton-comprar-detalle
+    {
+        top: 28px;
+        margin-left: 0%;
+    }
+
+    .Det
+    {
+        margin-left: 0% !important;
+        width: 100%;
+    }
+
+    .categoriasProd.mik
+    {
+        margin-left: -68%;
+    }
+
+    .imagenesDetalle
+    {
+        margin-right: 14%;
+    }
+
+    .w3-col.s4
+    {
+        margin-left: 12%;
+    }
+
+    .detallesDesc
+    {
+        margin-left: 4.5%;
+    }
+}
+
+@media only screen and (max-width: 320px)
+{
+    .imagenesDetalle
+    {
+        margin-right: -16%;
+        width: 150%;
+    }
+
+    .boton-comprar-detalle
+    {
+        width: 40%;
+        font-size: 11px;
+        margin-left: 29%;
+    }
+
+    .Det
+    {
+        margin-left: 0% !important;
+    }
+
+    .w3-col.s4
+    {
+        margin-left: 34%;
+    }
+
+    .imagenesChicas
+    {
+        width: 49px;
+        height: 50px;
+        object-fit: cover;
+        margin-left: 9px;
+        margin-top: 10px;
+    }
+
+    .carroComprar
+    {
+        width: 41%;
+        right: -66px;
+        top: 5px;
+        font-size: 9px;
+    }
 }
