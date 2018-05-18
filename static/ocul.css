@@ -1,9 +1,9 @@
-.ocul
+.ocultar-detalle-producto
 {
     display: none;
 }
 
-#sb
+#btn-ver-mas
 {
     background: #94b7bb;
     border: 0px;
@@ -152,7 +152,7 @@
     margin-top: 2%
 }
 
-#sb:hover
+#btn-ver-mas:hover
 {
     background-color: #E53623;
 }
@@ -495,7 +495,7 @@
         margin-left: 20%;
     }
 
-    #sb
+    #btn-ver-mas
     {
         margin-left: 1.5%;
     }
@@ -534,7 +534,7 @@
         margin-left: 26%;
     }
 
-    #sb
+    #btn-ver-mas
     {
         margin-left: 0%;
     }

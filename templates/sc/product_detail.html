@@ -29,27 +29,27 @@
 
         function showDivs(n)
         {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
+            var acumulator;
+            var mySlides = document.getElementsByClassName("mySlides");
             var dots = document.getElementsByClassName("demo");
             if ($('#imgChica').hasClass('hidden'))
             {
                 $('#imgChica').style.display = "none";
             }
-            if (n > x.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = x.length }
+            if (n > mySlides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = mySlides.length }
 
-            for (i = 0; i < x.length; i++)
+            for (acumulator = 0; acumulator < mySlides.length; i++)
             {
-                x[i].style.display = "none";
+                mySlides[acumulator].style.display = "none";
             }
 
-            for (i = 0; i < dots.length; i++)
+            for (acumulator = 0; acumulator < dots.length; i++)
             {
-                dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+                dots[acumulator].className = dots[acumulator].className.replace(" w3-opacity-off", "");
             }
 
-            x[slideIndex - 1].style.display = "block";
+            mySlides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " w3-opacity-off";
         }
     </script>
@@ -65,12 +65,12 @@
         var showDivs = function(n)
         {
             // define some vars
-            var i;
-            var x = $('.mySlides:not(.hidden)');
+            var acumulator;
+            var mySlides = $('.mySlides:not(.hidden)');
             var next;
 
             // set current index
-            if (n > x.length)
+            if (n > mySlides.length)
             {
                 slideIndex = 1
             }
@@ -78,23 +78,23 @@
             // set limit conditions
             if (n < 1)
             {
-                slideIndex = x.length
+                slideIndex = mySlides.length
             }
 
             // hide all images
             x.css('display', 'none');
 
             // show the current
-            next = $(x[slideIndex - 1]);
+            next = $(mySlides[slideIndex - 1]);
             next.css('display', 'block');
         };
 
         var base_url = $.environmentVar(
-            'https://apibodegas.loadingplay.com/',
+            'https://apibodegas.ondev.today/',
             'https://apibodegas.ondev.today/',
             'https://apibodegas.loadingplay.com/');
         var checkout_url = $.environmentVar(
-            'https://pay.loadingplay.com/',
+            'https://lpcheckout.ondev.today/',
             'https://lpcheckout.ondev.today/',
             'https://pay.loadingplay.com');
         var app_public = $.environmentVar(42, 42, 42);
@@ -204,7 +204,7 @@
                 <div id="desc1">
                     <p class="ellipsis multiline detail-description">{{! description}}</p>
                 </div>
-                <input type="submit" name="submit" id="sb" data-toggle="modal" data-target="#myModal2" value="ver más" class="cil ver-mas-desc">
+                <input type="submit" name="submit" id="btn-ver-mas" data-toggle="modal" data-target="#myModal2" value="ver más" class="cil ver-mas-desc">
                 <br>
             </div>
         </div>
