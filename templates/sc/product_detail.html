@@ -245,10 +245,10 @@
 {% end %}
 
 {% block css%}
-    <link rel="stylesheet" href="{{site_base}}/static/style.css">
+    <link rel="stylesheet" href="{{ site_base }}/{{ nocache_static }}/style.css">
     <link rel="stylesheet" type="text/css" href="{{ site_base }}/common/js/bower/bodegas.client/dist/bodegas.client.css">
-    <link rel="stylesheet" href="{{site_base}}/static/busca.css">
-    <link rel="stylesheet" href="{{site_base}}/static/ocul.css">
+    <link rel="stylesheet" href="{{ site_base }}/{{ nocache_static }}/busca.css">
+    <link rel="stylesheet" href="{{ site_base }}/{{ nocache_static }}/ocul.css">
 {% end %}
 
 {% block body %}

@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Damion');
+
+html,
+body
+{
+    height: 100%;
+}
+
+.tituloRol
+{
+    font-family: 'Damion' !important;
+    width: 90%;
+}
+
+.textoTip
+{
+    text-align: left;
+    margin-top: 20%;
+}
+
+@media only screen and (max-width: 1200px)
+{
+    [class*="imagenTips"]
+    {
+        float: left !important;
+        margin-left: 20% !important;
+        margin-right: 0px !important;
+    }
+
+    [class*="imagen2"]
+    {
+        position: relative !important;
+        margin-left: 0% !important;
+    }
+
+    .TipsBiluppo
+    {
+        margin-left: 40% !important;
+        margin-top: 10% !important;
+    }
+
+    .mini-articulos
+    {
+        width: 236%;
+        margin-left: -15% !important;
+    }
+
+    .tituloRol
+    {
+        margin-left: 4% !important;
+    }
+
+    .lef
+    {
+        width: 100%;
+    }
+
+    .hrTips
+    {
+        margin-top: 6%;
+        width: 100% !important;
+        margin-left: 4%;
+    }
+
+    [class*="indiceBil"]
+    {
+        margin-top: 3%;
+        margin-left: 4% !important;
+    }
+
+    [class*="indiceBil2"]
+    {
+        margin-top: 3%;
+        margin-right: 7%;
+    }
+
+    [class*="textoTip"]
+    {
+        margin-top: 13% !important;
+        width: 100% !important;
+        margin-left: 0%;
+    }
+
+    .detalleDeArticulos
+    {
+        width: 40% !important;
+        margin-left: 10% !important;
+    }
+
+    .tituloTipsDeja
+    {
+        margin-left: -43% !important;
+    }
+
+    .porBil
+    {
+        margin-left: -43%;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    .ol
+    {
+        visibility: hidden;
+    }
+
+    .franja-color
+    {
+        background: transparent;
+    }
+}
+
+@media only screen and (max-width: 568px)
+{
+    .buscarDetalle
+    {
+        bottom: 180px !important;
+        left: -60px !important;
+    }
+
+    .buscarBoton
+    {
+        bottom: 180px !important;
+        left: -59px !important;
+    }
+
+    .mini-articulos2
+    {
+        width: 145% !important;
+        margin-left: -19% !important;
+    }
+
+    .TipsBiluppo
+    {
+        margin-left: 20% !important;
+        margin-top: 20% !important;
+    }
+
+    .TextoTip
+    {
+        margin-top: 20% !important;
+    }
+
+    .hrTips
+    {
+        left: -7% !important;
+    }
+}
+
+@media only screen and (max-width: 375px)
+{
+    .tituloRol
+    {
+        width: 92%;
+    }
+
+    .textoTip
+    {
+        margin-top: 31% !important;
+    }
+
+    .indiceBil2
+    {
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 320px)
+{
+    [class*="textoTip"]
+    {
+        margin-top: 50% !important;
+        width: 100% !important;
+        margin-left: 0%;
+    }
+
+    [class*="indiceBil"]
+    {
+        margin-top: 3%;
+        margin-left: 18% !important;
+    }
+}
