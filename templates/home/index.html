@@ -15,7 +15,7 @@ a:focus{
   outline-offset: -2px;
 }
 #senior:hover{
-  content: url("{{ site_base }}/static/img/gif/senior.gif");
+  content: url("{{ site_base }}/{{ nocache_static }}/img/gif/senior.gif");
   width: 100% !important;
   margin-top: 0px !important;
   margin-left: 0px !important;
@@ -26,7 +26,7 @@ a:focus{
   margin-left: 18%;
 }
 #gallina:hover{
-  content: url("{{ site_base }}/static/img/gif/Gallina.gif");
+  content: url("{{ site_base }}/{{ nocache_static }}/img/gif/Gallina.gif");
   width: 100% !important;
   margin-top: 0px !important;
   margin-left: 0px !important;
@@ -37,7 +37,7 @@ a:focus{
   margin-left: 8%;
 }
 #elefante:hover{
-  content: url("{{ site_base }}/static/img/gif/Elefante_2.gif");
+  content: url("{{ site_base }}/{{ nocache_static }}/img/gif/Elefante_2.gif");
   width: 100% !important;
   margin-top: 0px !important;
   margin-left: 0px !important;
@@ -48,7 +48,7 @@ a:focus{
   margin-left: 8%;
 }
 #pez:hover{
-  content: url("{{ site_base }}/static/img/gif/Pez.gif");
+  content: url("{{ site_base }}/{{ nocache_static }}/img/gif/Pez.gif");
   width: 95% !important;
   margin-top: -10% !important;
   margin-left: -4% !important;
@@ -59,7 +59,7 @@ a:focus{
   margin-left: 8%;
 }
 #camion:hover{
-  content: url("{{ site_base }}/static/img/gif/camion.gif");
+  content: url("{{ site_base }}/{{ nocache_static }}/img/gif/camion.gif");
   width: 100% !important;
   margin-top: 0px !important;
   margin-left: 0px !important;
@@ -71,7 +71,7 @@ a:focus{
   margin-bottom: 18%;
 }
 #avion:hover{
-  content: url("{{ site_base }}/static/img/gif/Avion.gif");
+  content: url("{{ site_base }}/{{ nocache_static }}/img/gif/Avion.gif");
   width: 100% !important;
   margin-top: 0px !important;
   margin-left: 0px !important;
@@ -666,7 +666,7 @@ src:url(fonts/Damion-Regular.ttf);
 <script type="text/template" id="shopping-cart-units-total" >
     <span class="canti quantity" style="font-family: arial; font-size: 13px"><b>{{! units_total }}</b></span>
 </script> 
-<script type="text/javascript" src="{{ site_base }}/static/js/cart.config.js"></script>
+<script type="text/javascript" src="{{ site_base }}/{{ nocache_static }}/js/cart.config.js"></script>
 <script>
 function myFunction() {
     var x = document.getElementById("myTopnav");
@@ -680,7 +680,7 @@ function myFunction() {
 {% end %} 
 {% block css%}
 <link rel="stylesheet" type="text/css" href="{{ site_base }}/common/js/bower/bodegas.client/dist/bodegas.client.css">
-<link rel="stylesheet" type="text/css" href="{{site_base}}/static/style.css">
+<link rel="stylesheet" type="text/css" href="{{ site_base }}/{{ nocache_static }}/style.css">
 {% end %} 
 {% block body %} 
 {% if is_admin %} 
@@ -691,12 +691,12 @@ function myFunction() {
 
 <!-- cache preloader -->
 <div class="hidden" >
-  <img src="{{ site_base }}/static/img/gif/senior.gif" class="hidden" />
-  <img src="{{ site_base }}/static/img/gif/Gallina.gif" class="hidden" />
-  <img src="{{ site_base }}/static/img/gif/Elefante_2.gif" class="hidden" />
-  <img src="{{ site_base }}/static/img/gif/Pez.gif" class="hidden" />
-  <img src="{{ site_base }}/static/img/gif/camion.gif" class="hidden" />
-  <img src="{{ site_base }}/static/img/gif/Avion.gif" class="hidden" />
+  <img src="{{ site_base }}/{{ nocache_static }}/img/gif/senior.gif" class="hidden" />
+  <img src="{{ site_base }}/{{ nocache_static }}/img/gif/Gallina.gif" class="hidden" />
+  <img src="{{ site_base }}/{{ nocache_static }}/img/gif/Elefante_2.gif" class="hidden" />
+  <img src="{{ site_base }}/{{ nocache_static }}/img/gif/Pez.gif" class="hidden" />
+  <img src="{{ site_base }}/{{ nocache_static }}/img/gif/camion.gif" class="hidden" />
+  <img src="{{ site_base }}/{{ nocache_static }}/img/gif/Avion.gif" class="hidden" />
   <img src="https://84static.loadingplay.com/static/images/822b0be8348fdaa361f2d5a2851e0a09_Xilofono.gif" class="hidden" />
 </div>
 <!-- / cache preloader -->
