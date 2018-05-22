@@ -18,6 +18,7 @@
 <link rel="stylesheet" type="text/css" href="{{ site_base }}/common/js/bower/bodegas.client/dist/bodegas.client.css">
 <link rel="stylesheet" href="{{ site_base }}/{{ nocache_static }}/font-awesome.css">
 <link rel="stylesheet" href="{{ site_base }}/{{ nocache_static }}/contacto.css" >
+<link rel="stylesheet" href="{{ site_base }}/{{ nocache_static }}/listado_productos.css" >
 
 {% end %}
 
@@ -85,280 +86,28 @@ $(document).ready(function()
 {% else %}
 {% set editabletext = '' %}
 {% end %}
-<style type="text/css">
-body{
-    height: 100%;
-    overflow-x: hidden;
-}
-    .mensajesFiltros{
-        color: grey;
-        font-size: 12px;
-        width: 222px;
-        font-family: 'Open Sans', sans-serif;
-        margin-top: 5%;
-    }
-    @media only screen and (max-width: 1200px) {
 
-        /* For mobile phones: */
-        .filtrosBuscador{
-            width: 225px !important;
-        }
-        [class*="buscador"] {
-            position: absolute !important;
-            right: 2% !important;
-            width: 40% !important;
-            top: 330px !important;
-            padding-top: 0% !important;
-        }
-        [class*="filtroAloShoro"]{
-            position: absolute;
-            right: 10%;
-            margin-top: 9% !important;
-            width: 35% !important;
-            margin-left: 0% !important;
-        }
-        [class*="fuentes"]{
-            margin-left: 5% !important;
-            margin-top: 38% !important;
-            width: 90% !important;
-        }
-        [class*="filtros"]{
-            top: 0px !important;
-        }
-        [class*="products2"]{
-            margin-right: 0% !important; 
-            float: left !important;
-            width: 90% !important;
-            margin-left: 10%;
-        }
-        #encuentra{
-            width: 150%;
-        }
-        .buscarPorFiltros{
-            width: 138% !important;
-        }
-        .dropbtn {
-            right: -28% !important;
-        }
-        .myInput{
-            width: 104% !important;
-        }
-        .dropdown{
-            width: 46% !important;
-            margin-right:4% !important;
-        }
-        .dropbtnup{
-            left: 268% !important;
-
-        }
-        .boton-ordenar
-        {
-            left: 155% !important;
-        }
-        .ordena-position{
-             top: 112px !important;
-        }
-        .dropdown-content{
-            width: 250% !important;
-        }
-    }
-    @media only screen and (max-width: 768px){
-        [class*="buscador"] {
-            position: absolute !important;
-            right: 1% !important;
-            width: 60% !important;
-            top: 330px !important;
-            padding-top: 0% !important;
-            z-index: 1;
-
-        }
-        [class*="fuentes"]{
-            margin-left: 5% !important;
-            margin-top: 55% !important;
-            width: 100% !important;
-        }
-        .buscarPorFiltros{
-            width: 201% !important;
-        }
-        .filtroAloShoro{
-            margin-top: 12% !important;
-            width: 37% !important;
-        }
-        .myInput{
-            margin-right: 5% !important;
-            width: 104% !important;
-        }
-        .dropdown{
-            width: 60% !important;
-            margin-right:5% !important;
-        }
-        .dropbtn {
-            right: -27% !important;
-        }
-        .dropbtnup{
-            left: 281% !important;
-            
-        }
-        .boton-ordenar
-        {
-            left: 155% !important;
-        }
-    }
-    @media screen and (max-width: 568px){
-        .filtros {
-            position: none !important;
-            float: initial !important;
-            margin-left: 0% !important;
-        }
-        .fuentes{
-            margin-top: 30px!important;
-        }
-        .filtrosBuscador{
-            width: 500% !important;
-        }
-        .dropbtnup{
-            left: 500% !important;
-        }
-        .buscarPorFiltros{
-            width: 513% !important;
-        }
-        .txtBuscar{
-            width: 92% !important;
-        }
-        .filtroAloShoro{
-            width: 84% !important;
-            margin-top: 95% !important;
-        }
-        .dropdown{
-            width: 92% !important;
-            margin-right: 11% !important;
-        }
-        .dropbtn{
-            right: -11% !important;
-        }
-        .buscador{
-            margin-top: 16% !important;
-            margin-right: 7% !important;
-            width: 85% !important;
-            top: 420px !important;
-        }
-        .dropdown-content{
-            width: 500%;
-        }
-        .filter-breadcrumb{
-            width: 90%;
-            margin-left: 15%;
-            margin-bottom: 8%;
-        }
-        .ordenar-text{
-            width: 250% !important;
-        }
-        .ordena-position {
-            top: 326px !important;
-            right: 16% !important;
-        }
-        .boton-ordenar{
-            left: 100% !important;
-        }
-    }
-    @media only screen and (max-width: 375px){
-        .filter-breadcrumb{
-            margin-left: 0% !important;
-        }
-        .buscador{
-            top: 320px !important;
-            margin-right: 15% !important;
-        }
-        .buscarBoton{
-            margin-right: -9% !important;
-        }
-        .filtros{
-            margin-left: 1% !important;
-        }
-        .buscarPorFiltros{
-            width: 493% !important;
-        }
-        .dropbtnup{
-            left: 500% !important;
-        }
-        .dropdown{
-            width: 90% !important;
-        }
-        .fuentes{
-            width: 96% !important;
-        }
-        .contenedor{
-            padding-top: 50px !important;
-        }
-        .dropdown-content{
-            width: 500% !important;
-        }
-        .ordena-position
-        {
-            right: 5% !important;
-        }
-        .boton-ordenar {
-            left: 100% !important;
-        }
-    }
-    @media only screen and (max-width: 320px){
-        .ordena-position {
-            right: -12% !important;
-        }
-    }
-    .product-image-foreground:hover{
-        opacity: 0;
-    }
-    .shop.activado {
-        color:red;
-        background: transparent;
-    }
-</style>
-
-<div class="contenedor" style="padding-top: 170px;  margin-left: auto; margin-right: auto; position: relative;">
-    <!--<div class="filtroAloShoro" id="filtroMayorMenor" align="right">
-        <div class="dropdown" style="z-index: 10">
-            <input type="text" placeholder="Precio: menor a mayor" id="myInput" style="padding-left: 5%;font-family:'Open Sans', sans-serif; font-size: 12px; width: 100%; padding-right: 5%">
-            <button class="dropbtn"><span class="fa fa-chevron-down"></span></button>
-            <div class="dropdown-content dropdownlist">
-                <a href="#" class="contenidoDrop">Precio: mayor a menor</a>
-            </div>
-        </div>
-    </div>-->
+<div class="contenedor container-products">
     <div class="container">
-    <div class="buscador hidden-sm hidden-md hidden-xs" style="float: right;width: 17%;margin-top: -5%;margin-right: 5%;padding-top: 70px;" align="right">
+    <div class="search-content buscador hidden-sm hidden-md hidden-xs" align="right">
         <form action="{{site_base}}/listado_productos" method="get">
-            <button type="subbmit" alt="Enviar" class="buscarBoton" style="float: right;margin-top: 5%">
+            <button type="subbmit" alt="Enviar" class="buscarBoton search-btn">
                 <span class="fa fa-search"></span>
             </button>
-            <input class="txtBuscar" type="text" name="search_query" placeholder="Buscar" style="float: right; height: 60%; margin-top: 5%; padding-left:5%; font-family:'Open Sans', sans-serif; font-size: 12px ">
+            <input class="txtBuscar" type="text" name="search_query" placeholder="Buscar">
         </form>
-        <!-- <div class="dropdown drop-ordenar">
-            <input type="text" class="ordenar-text" placeholder="Ordenar..." style="padding-left: 5%; font-family:'Open Sans', sans-serif; font-size: 12px">
-            <button class="dropbtnup" data-toggle="dropdown">
-                <span class="fa fa-chevron-down" id="btnDown"></span>
-            </button>
-            <ul class="dropdown-menu ordenar">
-                <div class="" style="height: 43px;">
-                    <div class="col-md-12">
-                        <div class="pad5 m-ordenar" style="text-align: -webkit-left;"><a href="#!" class="mod ref menor">Menor a mayor</a></div>
-                        <div class="pad5 m-ordenar" style="text-align: -webkit-left;"><a href="#!" class="mod ref mayor">Mayor a menor</a></div>
-                    </div>
-                </div>
-            </ul>
-        </div> -->
     </div>
     <div class="ordena-position">
         <div class="dropdown drop-ordenar">
-            <input type="text" class="ordenar-text" placeholder="Ordenar..." style="padding-left: 5%; font-family:'Open Sans', sans-serif; font-size: 12px">
+            <input type="text" class="ordenar-text txt-filter-dropdown" placeholder="Ordenar...">
             <button class="dropbtnup boton-ordenar" data-toggle="dropdown">
                 <span class="fa fa-chevron-down" id="btnDown"></span>
             </button>
             <ul class="dropdown-menu ordenar">
                 <div class="" style="height: 43px;">
                     <div class="col-md-12">
-                        <div class="pad5 m-ordenar" style="text-align: -webkit-left;"><a href="#!" class="mod ref menor">Menor a mayor</a></div>
-                        <div class="pad5 m-ordenar" style="text-align: -webkit-left;"><a href="#!" class="mod ref mayor">Mayor a menor</a></div>
+                        <div class="pad5 m-ordenar"><a href="#!" class="mod ref menor">Menor a mayor</a></div>
+                        <div class="pad5 m-ordenar"><a href="#!" class="mod ref mayor">Mayor a menor</a></div>
                     </div>
                 </div>
             </ul>
@@ -366,12 +115,12 @@ body{
     </div>
     <div class="clearfix" style="padding-top: 50px"></div>
 
-    <div class="col-md-12 h-product fondo_nuest_prod" style=" position: relative;display: inline-block; ">
+    <div class="col-md-12 h-product fondo_nuest_prod our-products">
         <div class="filtros">
             <h5 id="encuentra"><b>Encuentra tu juguete</b></h5><br>
             <div>
                 <div class="dropdown">
-                    <input type="text" class="filtrosBuscador filtrosMensaje" placeholder="Busca por edad" style="padding-left: 5%; font-family:'Open Sans', sans-serif; font-size: 12px">
+                    <input type="text" class="filtrosBuscador filtrosMensaje age-filter" placeholder="Busca por edad">
                     <button class="dropbtnup"><span class="fa fa-chevron-down" id="btnDown"></span></button>
                     <div class="dropdown-content busqueda-edad dropdownlist">
                     </div>
@@ -408,7 +157,7 @@ body{
             <br>
             <div>
                 <div class="dropdown">
-                    <input type="text" class="filtrosBuscador filtrosMensaje2" placeholder="Busca por area de desarrollo" style="padding-left: 5%">
+                    <input type="text" class="filtrosBuscador filtrosMensaje2 area-filter" placeholder="Busca por area de desarrollo">
                     <button class="dropbtnup"><span class="fa fa-chevron-down" id="btnDown"></span></button>
                     <div class="dropdown-content busqueda-area dropdownlist">
                     </div>
@@ -439,7 +188,7 @@ body{
             <br>
             <div>
                 <div class="dropdown">
-                    <input type="text" class="filtrosBuscador filtrosMensaje3" placeholder="Busca por marca" style="padding-left: 5%">
+                    <input type="text" class="filtrosBuscador filtrosMensaje3 area-filter" placeholder="Busca por marca">
                     <button class="dropbtnup">
                         <span class="fa fa-chevron-down" id="btnDown"></span>
                     </button>
@@ -455,10 +204,10 @@ body{
 
         </div>
 
-        <h2 id="fuente" class="text_main text-center {{editabletext}} fuentes textoPrincipal" text-id="{{ site.name + '_text_main' }}" style="margin-left: 29%;text-align: left;width: 70%; color:#E53623"> {{ read_text(site.name +  '_text_main') }} </h2>
+        <h2 id="fuente" class="text_main text-center {{editabletext}} fuentes textoPrincipal product-txt" text-id="{{ site.name + '_text_main' }}"> {{ read_text(site.name +  '_text_main') }} </h2>
         <div class="clearfix" style="height: 60px"></div>
-        <div class="filter-breadcrumb hidden" style="width: 50%;margin-left: 28%;margin-top: -3%; margin-bottom: 2%;color: #E53623;font-weight: bold;font-family: 'Open Sans', sans-serif;"></div>
-            <div class=" product-grid products products2 product_loading" style="min-height: 550px; width: 70%; float: right; margin-right: 3%"> 
+        <div class="filter-breadcrumb hidden"></div>
+            <div class=" product-grid products products2 product_loading"> 
                 <div class="spinner">
                     <div class="rect2"></div>
                     <div class="rect3"></div>
@@ -474,9 +223,6 @@ body{
     </div>
 </div>
 
-
-
-<div class="clearfix" style="padding: 100px; background-image: url(https://7static.loadingplay.com/static/images/8442e4fd77ee181e89fb8b35d5323c9d_Pattern_Blanco-1.png);"></div>
 {% include '../home/carrito_compra.html' %}
 {% include '../home/footer.html' %}
 {% end %}
