@@ -146,12 +146,6 @@
     left: 120px;
 }
 
-.w3-col.s4
-{
-    margin-left: 50%;
-    margin-top: 2%
-}
-
 #btn-ver-mas:hover
 {
     background-color: #E53623;
@@ -204,9 +198,7 @@
     width: 62px;
     height: 59px;
     object-fit: cover;
-    margin-left: 2px;
-    margin-top: 20px;
-    float: left;
+    float: right;
 }
 
 @media only screen and (max-width:1200px)
@@ -218,23 +210,17 @@
 
     .imagenesChicas
     {
-        width: 49px;
-        height: 50px;
-        object-fit: cover;
-        margin-left: 9px;
-        margin-top: 20px;
-    }
-
-    .w3-col.s4
-    {
-        margin-left: 54%;
+        width: 50%;
+        height: auto;
     }
 
     .categoriasProd.mik
     {
         font-size: 11px;
-        width: 43%;
+        width: 100%;
         margin-bottom: 19px;
+        text-align: center;
+        left: 0px;
     }
 }
 
@@ -243,6 +229,19 @@
     .detallesDesc
     {
         margin-left: 26.5%;
+    }
+
+    .imagenesDetalle
+    {
+        height: inherit;
+        left: 0px;
+        max-width: 100%;
+
+    }
+
+    .w3-content
+    {
+        margin-left: 23%;
     }
 
     .precioDetalle
@@ -273,11 +272,6 @@
         margin-left: 30%;
     }
 
-    .Det
-    {
-        margin-left: 0%;
-    }
-
     .name-line
     {
         text-align: center;
@@ -286,11 +280,6 @@
     .toy
     {
         text-align: center;
-    }
-
-    .w3-col.s4
-    {
-        margin: 0% 30%;
     }
 
     .categoriasProd.mik
@@ -396,11 +385,6 @@
         margin-right: 6%;
     }
 
-    .w3-col.s4
-    {
-        margin-left: 56%;
-    }
-
     .detallesDesc
     {
         margin-left: 0.5%;
@@ -469,11 +453,6 @@
         margin-left: 0% !important;
     }
 
-    .w3-col.s4
-    {
-        margin-left: 49%;
-    }
-
     .categoriasProd.mik
     {
         margin-left: -52%;
@@ -529,11 +508,6 @@
 
 @media only screen and (max-width: 480px)
 {
-    .w3-col.s4
-    {
-        margin-left: 26%;
-    }
-
     #btn-ver-mas
     {
         margin-left: 0%;
@@ -596,8 +570,7 @@
 
     .imagenesChicas
     {
-        width: 30%;
-        height: auto;
+        float: right;
     }
 
     .boton-comprar-detalle
@@ -608,10 +581,10 @@
 
     .imagenesDetalle
     {
-        max-width: 100%;
+        max-width: 80%;
         width: 100%;
         object-position: inherit;
-        left: 0px;
+        left: 10%;
     }
 }
 
@@ -659,11 +632,6 @@
     .imagenesDetalle
     {
         margin-right: 14%;
-    }
-
-    .w3-col.s4
-    {
-        margin-left: 12%;
     }
 
     .detallesDesc
