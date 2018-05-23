@@ -265,18 +265,18 @@
 @media screen and (max-width:1024px)
 {
 
-    [class*="w3-content"]
+    .w3-content
     {
 
         margin-left: 10%;
     }
 
-    [class*="w3-desc"]
+    .w3-desc
     {
         margin-left: 3.5%;
     }
 
-    [class*="slide"]
+    .slide
     {
         left: 91.5%;
     }
