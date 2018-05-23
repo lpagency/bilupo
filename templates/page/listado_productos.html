@@ -35,7 +35,6 @@ $(document).ready(function()
 
 <script type="text/template" class="categories" >
     <a href="#" class="contenidoDrop filtro" tag="{{!tag}}">{{!name}}</a>
-   <!-- <div class="filtro info contenidoDrop"  tag="{{!tag}}">{{!info}}</div> -->
 </script>
 
 <script type="text/javascript">
@@ -67,7 +66,7 @@ $(document).ready(function()
                 }
             });
 
-            categ = html_builder[0].toString() + ">" + html_builder[1].toString() + ">" + html_builder[2].toString();
+            categ = html_builder.toString().replace(',','>');
         });
 
         $('.buscarPorFiltros').on('click', function()
