@@ -97,7 +97,6 @@ $(document).ready(function()
         'ignore_stock': false,
         'infinite_scroll': false,
         'animation': 'ghost',
-        // 'maxProducts': 100,
         'checkout_url': checkout_url,
         'analytics': true,
         'operator': 'or',
