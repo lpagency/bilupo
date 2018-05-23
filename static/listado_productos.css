@@ -4,6 +4,87 @@ body
     overflow-x: hidden;
 }
 
+.coluProductos
+{
+    min-height: 285px;
+}
+
+.caja-productos
+{
+    width: 242px;
+    height: 200px;
+    padding-bottom:10px;
+    background-color: white;
+}
+
+.price
+{
+    margin-left: 31%;
+    float: left;
+    color: #E53623;
+    text-align: center;
+    width: 34%;
+    letter-spacing:0.1em;
+}
+
+.img_product
+{
+    max-width: 100%;
+    width: 242px;
+    height: 200px;
+    object-fit: scale-down;
+    margin: 0 auto;
+    position: absolute;
+    padding: 15px 25px 15px 25px;
+}
+
+.product-title
+{
+    margin-left: 25%;
+    margin-right: 10%;
+    padding-right: 5%;
+    color:grey;
+    font-size:0.9em;
+    letter-spacing:0.1em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    font-weight: lighter;
+}
+
+.product-cart
+{
+    font-size: medium;
+    margin-left: 92%;
+    margin-top: -3px;
+}
+
+.carro-compra
+{
+    float: right;
+    margin-right: 4%;
+    color: grey;margin-top: -3%;
+}
+
+.desription-div
+{
+    padding-bottom: 20px;
+    left: 55%;
+}
+
+#carrito2:hover
+{
+    color: red;
+}
+
+#titulo_producto
+{
+    white-space: nowrap; 
+    width: 12em; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .mensajesFiltros
 {
     color: grey;
@@ -135,6 +216,37 @@ body
     {
         width: 225px;
     }
+
+    .caja-productos
+    {
+        width: 250px;
+        height: 218px;
+    }
+
+    .img-re
+    {
+        width: 250px;
+        height: 198px;
+    }
+
+    .carritoCompra
+    {
+        width: 3%;
+        margin-top: -2%;
+        margin-right: 55%;
+    }
+
+    #titulo_producto
+    {
+        margin-right: 0%;
+        padding-right: 0%;
+        margin-left: 5%
+    }
+
+    .price
+    {
+        margin-left: 4%;
+    }
     
     .buscador
     {
@@ -224,6 +336,25 @@ body
         z-index: 1;
     }
 
+    .carritoCompra
+    {
+        width: 3%;
+        margin-top: -2%;
+        margin-right: 28%;
+    }
+
+    .price
+    {
+        margin-left: 11%;
+    }
+
+    #titulo_producto
+    {
+        margin-right: 0%;
+        padding-right: 0%;
+        margin-left: 7%
+    }
+
     .our-products
     {
         width: 100%;
@@ -297,6 +428,16 @@ body
         position: none;
         float: initial;
         margin-left: 0%;
+    }
+
+    .carritoCompra
+    {
+        margin-top: -5%;
+    }
+
+    #titulo_producto
+    {
+        width: 9em;
     }
 
     .fuentes
@@ -378,11 +519,29 @@ body
     }
 }
 
+@media screen and (max-width: 414px)
+{
+    .coluProductos
+    {
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 375px)
 {
     .filter-breadcrumb
     {
         margin-left: 0%;
+    }
+
+    #titulo_producto
+    {
+        width: 12em;
+    }
+
+    .price
+    {
+        margin-left: 20%;
     }
 
     .buscador
@@ -447,5 +606,25 @@ body
     .ordena-position
     {
         right: -12%;
+    }
+
+    #titulo_producto
+    {
+        width: 15em;
+    }
+
+    .carritoCompra
+    {
+        margin-right: 2%;
+    }
+
+    .price
+    {
+        margin-left: 31%;
+    }
+
+    .products2
+    {
+        margin-left: 0%;
     }
 }

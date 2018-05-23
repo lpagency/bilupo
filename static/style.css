@@ -151,8 +151,9 @@ src:url(fonts/Damion-Regular.ttf);
 .juego1{
     margin-left: 45%
 }
-.img_product{
-    max-width: 70%!important;
+.img_product
+{
+    max-width: 70%;
     height: 100%;
     object-fit:scale-down;
     margin: 0 auto;
