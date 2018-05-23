@@ -336,6 +336,25 @@ body
         z-index: 1;
     }
 
+    .carritoCompra
+    {
+        width: 3%;
+        margin-top: -2%;
+        margin-right: 28%;
+    }
+
+    .price
+    {
+        margin-left: 11%;
+    }
+
+    #titulo_producto
+    {
+        margin-right: 0%;
+        padding-right: 0%;
+        margin-left: 7%
+    }
+
     .our-products
     {
         width: 100%;
@@ -409,6 +428,16 @@ body
         position: none;
         float: initial;
         margin-left: 0%;
+    }
+
+    .carritoCompra
+    {
+        margin-top: -5%;
+    }
+
+    #titulo_producto
+    {
+        width: 9em;
     }
 
     .fuentes
@@ -490,11 +519,29 @@ body
     }
 }
 
+@media screen and (max-width: 414px)
+{
+    .coluProductos
+    {
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 375px)
 {
     .filter-breadcrumb
     {
         margin-left: 0%;
+    }
+
+    #titulo_producto
+    {
+        width: 12em;
+    }
+
+    .price
+    {
+        margin-left: 20%;
     }
 
     .buscador
@@ -559,5 +606,25 @@ body
     .ordena-position
     {
         right: -12%;
+    }
+
+    #titulo_producto
+    {
+        width: 15em;
+    }
+
+    .carritoCompra
+    {
+        margin-right: 2%;
+    }
+
+    .price
+    {
+        margin-left: 31%;
+    }
+
+    .products2
+    {
+        margin-left: 0%;
     }
 }
