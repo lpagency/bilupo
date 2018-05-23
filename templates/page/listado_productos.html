@@ -66,8 +66,7 @@ $(document).ready(function()
                 }
             });
 
-            categ = html_builder.toString().replace(',','>');
-            categ = categ.replace(',','>');
+            categ = html_builder.toString().replace(/,/g,'>');
         });
 
         $('.buscarPorFiltros').on('click', function()
