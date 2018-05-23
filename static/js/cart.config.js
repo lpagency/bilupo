@@ -271,7 +271,6 @@ $(document).ready(function()
 
         $('.products').html("");
         $(document).ecommerce("destroy");
-
         $(document).ecommerce(window.config);
     });
 });
