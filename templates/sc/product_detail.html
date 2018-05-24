@@ -112,16 +112,20 @@
             'container': '.product-detail',
             'onLoad': function(products)
             {
-                $(".add-to-cart").click(function()
-                {
-                    $('#modal-vacaciones').modal('show');
-                });
                 showDivs(slideIndex);
 
                 // init slide button
                 $('#boton_slide').on('click', function() {
                     plusDivs(1);
                 });
+
+                if(products.promotion_price > 0)
+                {
+                    $(".main-price").css("text-decoration", "line-through");
+                    $(".main-price").css("font-size", "12px");
+                    $(".promotion-price").removeClass("hidden");
+                    $(".img-hidden-responsive").css("top", "94px");
+                }
             }
         };
 
@@ -165,7 +169,12 @@
             <br>
             <div class="precioDetalle">
                 <h3 class="alinear detail-price">
-                    <b>{{! main_price|money }}</b>
+                    <b class="main-price">{{! main_price|money }}</b>
+                </h3>
+            </div>
+            <div class="precioDetalle">
+                <h3 class="alinear detail-price promotion-price hidden">
+                    <b>{{! promotion_price|money }}</b>
                 </h3>
             </div>
             <br>
