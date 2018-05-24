@@ -39,12 +39,12 @@
             if (n > mySlides.length) { slideIndex = 1 }
             if (n < 1) { slideIndex = mySlides.length }
 
-            for (acumulator = 0; acumulator < mySlides.length; i++)
+            for (acumulator = 0; acumulator < mySlides.length; acumulator++)
             {
                 mySlides[acumulator].style.display = "none";
             }
 
-            for (acumulator = 0; acumulator < dots.length; i++)
+            for (acumulator = 0; acumulator < dots.length; acumulator++)
             {
                 dots[acumulator].className = dots[acumulator].className.replace(" w3-opacity-off", "");
             }
