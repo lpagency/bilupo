@@ -109,8 +109,8 @@ $(document).ready(function()
                 if (products[x].promotion_price != 0)
                 {
                     $(".promotion-price." + products[x].sku).removeClass('hidden');
-                    $(".price." + products[x].sku).css('font-size', '10px');
-                    $(".price." + products[x].sku).css('text-decoration', 'line-through');
+                    $(".main-price." + products[x].sku).css('font-size', '10px');
+                    $(".main-price." + products[x].sku).css('text-decoration', 'line-through');
                 }
             }
         }
