@@ -1,0 +1,767 @@
+#senior
+{
+    width: 75%;
+    margin-left: 14%;
+    margin-top: 19%;
+}
+
+a:focus
+{
+    outline: none;
+    outline-offset: -2px;
+}
+
+#senior:hover
+{
+    content: url("{{ site_base }}/{{ nocache_static }}/img/gif/senior.gif");
+    width: 100% !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+}
+
+#gallina
+{
+    width: 77%;
+    margin-top: 17%;
+    margin-left: 18%;
+}
+
+#gallina:hover
+{
+    content: url("{{ site_base }}/{{ nocache_static }}/img/gif/Gallina.gif");
+    width: 100% !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+}
+
+#elefante
+{
+    width: 85%;
+    margin-top: 12%;
+    margin-left: 8%;
+}
+
+#elefante:hover
+{
+    content: url("{{ site_base }}/{{ nocache_static }}/img/gif/Elefante_2.gif");
+    width: 100% !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+}
+
+#pez
+{
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 8%;
+}
+
+#pez:hover
+{
+    content: url("{{ site_base }}/{{ nocache_static }}/img/gif/Pez.gif");
+    width: 95% !important;
+    margin-top: -10% !important;
+    margin-left: -4% !important;
+}
+
+#camion
+{
+    width: 87%;
+    margin-top: 14%;
+    margin-left: 8%;
+}
+
+#camion:hover
+{
+    content: url("{{ site_base }}/{{ nocache_static }}/img/gif/camion.gif");
+    width: 100% !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+}
+
+#avion
+{
+    width: 80%;
+    margin-top: 28%;
+    margin-left: -15%;
+    margin-bottom: 18%;
+}
+
+#avion:hover
+{
+    content: url("{{ site_base }}/{{ nocache_static }}/img/gif/Avion.gif");
+    width: 100% !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+#xilofono
+{
+    width: 80%;
+    margin-top: 0%;
+    margin-left: -1%;
+    margin-bottom: 18%;
+}
+
+#xilofono:hover
+{
+    content: url("https://84static.loadingplay.com/static/images/822b0be8348fdaa361f2d5a2851e0a09_Xilofono.gif");
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+#barra
+{
+    color: #9FBFC2;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face
+{
+    font-family: Damion-Regular;
+    src: url(fonts/Damion-Regular.ttf);
+}
+
+.el_juego
+{
+    font-family: Damion-Regular;
+    color: #E53623;
+    margin-left: 44%;
+}
+
+#barra:hover
+{
+    color: red;
+}
+
+#barra2
+{
+    color: #808080;
+}
+
+#barra2:hover
+{
+    color: red;
+}
+
+.redondo:hover
+{
+    border-radius: 70%;
+    width: 16px;
+    height: 36px;
+    padding: 20px;
+    background: red;
+    text-align: center;
+    color: white !important;
+}
+
+.redondo2:hover
+{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: #94B7BB;
+    text-align: center;
+    text-decoration: white;
+    color: white !important;
+}
+
+#br:hover
+{
+    color: white;
+}
+
+#br2:hover
+{
+    color: red;
+}
+
+#titulo_producto
+{
+    white-space: nowrap;
+    width: 12em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.imagenBiluppo
+{
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.22);
+    position: absolute;
+    z-index: 1;
+}
+
+.puntos
+{
+    position: absolute;
+    top: 45%;
+    left: 54%;
+}
+
+.numero
+{
+    position: absolute;
+    right: 8%;
+    top: 33px;
+}
+
+.carro:hover
+{
+    content: url("https://7static.loadingplay.com/static/images/0fddcfd59e5bef8363af86999e73186e_carro-blanco_(1).png");
+}
+
+.instaImg:hover
+{
+    content: url("https://7static.loadingplay.com/static/images/6be89f92087c7ce0f162c1798bce9aed_insta-blanco.png");
+}
+
+.faceImg:hover
+{
+    content: url("https://84static.loadingplay.com/static/images/a2512973270d023daa435f468bb49bdd_fb-blanco.png");
+}
+
+@media only screen and (max-width:1200px)
+{
+    .xilo:hover
+    {
+        content: initial !important;
+    }
+
+    .xilo2:hover
+    {
+        content: initial !important;
+    }
+
+    ul.topnav li:not(:first-child)
+    {
+        display: none;
+    }
+
+    ul.topnav li.icon
+    {
+        float: left !important;
+        display: inline-block;
+    }
+
+    #barra
+    {
+        color: white !important;
+        text-align: center !important;
+        font-size: 25px !important;
+    }
+
+    ul.topnav.responsive
+    {
+        position: fixed;
+        background-color: #94b7bb;
+        width: 100%;
+        height: 100%;
+    }
+
+    ul.topnav.responsive li.icon
+    {
+        right: 0;
+        top: 0;
+    }
+
+    ul.topnav.responsive li
+    {
+        float: none;
+        display: inline;
+    }
+
+    ul.topnav.responsive li a
+    {
+        display: block;
+    }
+
+    .contenedor-img
+    {
+        margin: 0% !important;
+        float: left !important;
+        margin-left: -5% !important;
+        margin-top: 5% !important;
+        width: 108% !important;
+        height: 200px!important;
+    }
+
+    .el_juego
+    {
+        float: left !important;
+        margin-left: 27% !important;
+    }
+
+    .puntos
+    {
+        float: right !important;
+        top: 35.5% !important;
+        left: 41% !important;
+    }
+
+    .espacio
+    {
+        padding: 0px !important;
+    }
+
+    .inicio
+    {
+        margin-top: 20% !important;
+    }
+
+    .quantity
+    {
+        font-size: 25px !important;
+    }
+
+    .gallina
+    {
+        margin-top: 45% !important;
+        margin-left: -10% !important;
+    }
+
+    #gallina:hover
+    {
+        width: 77% !important;
+        margin-top: 45% !important;
+        margin-left: -10% !important;
+    }
+
+    #pez
+    {
+        margin-left: -90% !important;
+        margin-top: 40% !important;
+        width: 60% !important;
+    }
+
+    #pez:hover
+    {
+        margin-left: -90% !important;
+        margin-top: 40% !important;
+        width: 60% !important;
+    }
+
+    #titulo
+    {
+        margin-left: 20% !important;
+    }
+
+    #camion
+    {
+        margin-left: 28% !important;
+    }
+
+    #camion:hover
+    {
+        margin-left: 28% !important;
+        width: 87% !important;
+        margin-top: 14% !important;
+    }
+
+    #xilofono
+    {
+        margin-left: -110% !important;
+    }
+
+    #xilofono:hover
+    {
+        width: 80%;
+        margin-top: 0%;
+        margin-bottom: 18%;
+        margin-left: -110% !important;
+    }
+
+    .numero
+    {
+        top: 27px !important;
+        color: red !important;
+    }
+
+    .imgBil
+    {
+        width: 50% !important;
+    }
+
+    .mascara
+    {
+        width: 55% !important;
+        height: 200px !important;
+        opacity: 1 !important;
+        background-color: rgba(24, 123, 207, 0.91) !important;
+        left: 50% !important;
+    }
+
+    .parrafo
+    {
+        margin-top: 5% !important;
+    }
+
+    .contenedor2
+    {
+        height: 80px !important;
+    }
+    p
+    {
+        opacity: 1 !important;
+    }
+}
+
+@media only screen and (max-width:770px)
+{
+    #titulo
+    {
+        margin-left: 8% !important;
+    }
+
+    .numero
+    {
+        top: 22px !important;
+    }
+
+    #gallina
+    {
+        margin-top: 31% !important;
+        margin-left: -50% !important;
+    }
+
+    #gallina:hover
+    {
+        margin-top: 31% !important;
+        margin-left: -50% !important;
+    }
+
+    #pez
+    {
+        margin-left: -90% !important;
+        margin-top: 20% !important;
+    }
+
+    #pez:hover
+    {
+        margin-left: -90% !important;
+        margin-top: 20% !important;
+    }
+
+    #camion
+    {
+        margin-left: 28% !important;
+        margin-top: 1% !important;
+    }
+
+    #camion:hover
+    {
+        margin-left: 28% !important;
+        margin-top: 1% !important;
+    }
+
+    .puntos
+    {
+        float: right !important;
+        top: 35% !important;
+        left: 45.5% !important;
+    }
+
+    .imagenesBiluppo
+    {
+        width: 410px;
+        position: absolute !important;
+        bottom: 0 !important;
+    }
+
+    .mascara
+    {
+        left: 52.5% !important;
+        width: 48% !important;
+        height: 200px !important;
+        opacity: 1 !important;
+        background-color: rgba(24, 123, 207, 0.91) !important;
+    }
+
+    .imgBil
+    {
+        width: 410px !important;
+    }
+
+    .home-icons
+    {
+        left: 8% !important;
+    }
+}
+
+@media screen and (max-width: 667px)
+{
+    .home-icons
+    {
+        left: 0% !important;
+    }
+
+    .imagenBiluppo
+    {
+        width: 25% !important;
+    }
+
+    #titulo
+    {
+        margin-left: 0% !important;
+        width: 100% !important;
+    }
+
+    #gallina
+    {
+        width: 70% !important;
+        margin-left: -34% !important;
+        margin-top: 83% !important;
+    }
+
+    #gallina:hover
+    {
+        width: 70% !important;
+        margin-left: -34% !important;
+        margin-top: 83% !important;
+    }
+
+    #pez
+    {
+        width: 60% !important;
+        margin-top: 40% !important;
+        margin-left: -35% !important;
+    }
+
+    #pez:hover
+    {
+        width: 60% !important;
+        margin-top: 40% !important;
+        margin-left: -35% !important;
+    }
+
+    #camion
+    {
+        width: 100% !important;
+        margin-left: 50% !important;
+    }
+
+    #camion:hover
+    {
+        width: 100% !important;
+        margin-left: 50% !important;
+    }
+
+    #xilofono
+    {
+        width: 50% !important;
+        margin-top: 12% !important;
+        margin-left: -1% !important;
+    }
+
+    #xilofono:hover
+    {
+        width: 50% !important;
+        margin-top: 12% !important;
+        margin-left: -1% !important;
+    }
+
+    .puntos
+    {
+        top: 54.5% !important;
+        left: 22.5% !important;
+    }
+
+    .el_juego
+    {
+        margin-left: 6% !important;
+        font-size: 30px !important;
+    }
+
+    .imgBil
+    {
+        width: 53% !important;
+    }
+
+    p
+    {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (max-width: 568px)
+{
+    #pez
+    {
+        width: 90% !important;
+        margin-left: -58% !important;
+    }
+
+    #pez:hover
+    {
+        width: 90% !important;
+        margin-left: -58% !important;
+    }
+
+    #gallina
+    {
+        width: 90% !important;
+        margin-left: -41% !important;
+        margin-top: 88% !important;
+    }
+
+    #gallina:hover
+    {
+        width: 90% !important;
+        margin-left: -41% !important;
+        margin-top: 88% !important;
+    }
+
+    #camion
+    {
+        width: 120% !important;
+        margin-left: 39% !important;
+    }
+
+    #camion:hover
+    {
+        width: 120% !important;
+        margin-left: 39% !important;
+    }
+
+    #xilofono
+    {
+        width: 50% !important;
+    }
+
+    #xilofono:hover
+    {
+        width: 50% !important;
+    }
+
+    .puntos
+    {
+        top: 49% !important;
+        left: 25.5% !important;
+    }
+}
+
+@media only screen and (max-width: 414px)
+{
+    #gallina
+    {
+        margin-top: 125% !important;
+    }
+
+    #gallina:hover
+    {
+        margin-top: 125% !important;
+    }
+
+    .puntos
+    {
+        top: 46.5% !important;
+        left: 30.5% !important;
+    }
+}
+
+@media only screen and (max-width: 375px)
+{
+    .imagenBiluppo
+    {
+        margin-left: 30% !important;
+    }
+
+    .quantity
+    {
+        font-size: 15px !important;
+    }
+
+    #pez
+    {
+        margin-top: -37% !important;
+    }
+
+    #titulo
+    {
+        margin-top: -22% !important;
+        margin-left: -7% !important;
+    }
+
+    #pez
+    {
+        margin-top: 31% !important;
+    }
+
+    .puntos
+    {
+        top: 43.5% !important;
+        left: 35.5% !important;
+    }
+
+    .contenedor2
+    {
+        height: 90px !important;
+    }
+}
+
+@media only screen and (max-width: 320px)
+{
+    .imagenBiluppo
+    {
+        margin-left: 30% !important;
+    }
+
+    #gallina
+    {
+        margin-top: 150% !important;
+    }
+
+    #pez
+    {
+        margin-top: -37% !important;
+    }
+
+    #titulo
+    {
+        margin-top: -73% !important;
+    }
+
+    #barra
+    {
+        font-size: 25px !important;
+    }
+
+    .carro
+    {
+        right: 34px !important;
+    }
+
+    .numero
+    {
+        top: 18px !important;
+        right: 18px !important;
+    }
+
+    .puntos
+    {
+        top: 38.5% !important;
+        left: 35.5% !important;
+    }
+
+    .el_juego
+    {
+        margin-left: 0% !important;
+    }
+
+    .contenedor2
+    {
+        height: 120px !important;
+    }
+
+    #titulo
+    {
+        margin-left: -1% !important;
+    }
+}
