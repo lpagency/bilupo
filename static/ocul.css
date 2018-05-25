@@ -242,6 +242,12 @@
         margin-left: 26.5%;
     }
 
+    .categoriasProd.mik
+    {
+        margin-top: 20px;
+        text-align: left;
+    }
+
     .imagenesDetalle
     {
         height: inherit;
