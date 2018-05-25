@@ -152,28 +152,6 @@ a:focus
     color: red;
 }
 
-.redondo:hover
-{
-    border-radius: 70%;
-    width: 16px;
-    height: 36px;
-    padding: 20px;
-    background: red;
-    text-align: center;
-    color: white !important;
-}
-
-.redondo2:hover
-{
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    background: #94B7BB;
-    text-align: center;
-    text-decoration: white;
-    color: white !important;
-}
-
 #br:hover
 {
     color: white;
@@ -211,11 +189,6 @@ a:focus
     position: absolute;
     right: 8%;
     top: 33px;
-}
-
-.carro:hover
-{
-    content: url("https://7static.loadingplay.com/static/images/0fddcfd59e5bef8363af86999e73186e_carro-blanco_(1).png");
 }
 
 .instaImg:hover
@@ -731,11 +704,6 @@ a:focus
     #barra
     {
         font-size: 25px !important;
-    }
-
-    .carro
-    {
-        right: 34px !important;
     }
 
     .numero
