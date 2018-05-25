@@ -583,12 +583,6 @@
         width: 131px;
     }
 
-    .s4
-    {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
     .categoriasProd.mik
     {
         text-align: center;
@@ -608,10 +602,7 @@
 
     .imagenesDetalle
     {
-        max-width: 80%;
         width: 100%;
-        object-position: inherit;
-        left: 10%;
     }
 }
 
@@ -619,8 +610,7 @@
 {
     .carroComprar
     {
-        right: -92px;
-        top: 6px;
+        top: 28px;
         width: 131px;
     }
 
@@ -633,12 +623,6 @@
 
 @media only screen and (max-width: 375px)
 {
-    .carroComprar
-    {
-        right: -150px;
-        top: -26px;
-    }
-
     .boton-comprar-detalle
     {
         top: 28px;
@@ -669,12 +653,6 @@
 
 @media only screen and (max-width: 320px)
 {
-    .imagenesDetalle
-    {
-        margin-right: -16%;
-        width: 150%;
-    }
-
     .boton-comprar-detalle
     {
         width: 40%;
@@ -687,20 +665,6 @@
     .Det
     {
         margin-left: 0% !important;
-    }
-
-    .w3-col.s4
-    {
-        margin-left: 34%;
-    }
-
-    .imagenesChicas
-    {
-        width: 49px;
-        height: 50px;
-        object-fit: cover;
-        margin-left: 9px;
-        margin-top: 10px;
     }
 
     .carroComprar
