@@ -613,6 +613,11 @@
     {
         height: 100px;
     }
+
+    .boton-comprar-detalle
+    {
+        margin-left: 3%;
+    }
 }
 
 @media only screen and (max-width: 400px)
