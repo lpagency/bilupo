@@ -75,6 +75,21 @@
             <script type="text/javascript" src="{{ site_base }}/common/js/bower/file_uploader/dist/fileuploader.js"></script>
         {% end %}
 
+        <script type="text/template" id="shopping-cart-units-total">
+            <span class="quantity header-cantidad" style="font-family: arial; font-size: 13px"><b>{{! units_total }}</b></span>
+        </script>
+        <script>
+            function myFunction()
+            {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+
         {% block scripts %}
         {% end %}
     </body>
