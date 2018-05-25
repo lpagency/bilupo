@@ -124,6 +124,11 @@
     text-transform: uppercase;
 }
 
+.s4
+{
+    padding-left: 0px;
+}
+
 .clearfix-hidden
 {
     padding: 10px;
@@ -132,6 +137,14 @@
 .clearfix-detail
 {
     padding-top: 44px;
+}
+
+.link-arrow
+{
+    float: left;
+    position: relative;
+    top: 30px;
+    right: 231px;
 }
 
 .categoriasProd.mik
@@ -143,7 +156,7 @@
     text-align: left;
     float: left;
     position: relative;
-    left: 120px;
+    left: 100px;
 }
 
 #btn-ver-mas:hover
@@ -183,22 +196,18 @@
 
 .imagenesDetalle
 {
-    height: 200px;
     object-fit: contain;
-    left: 200px;
+    left: 100px;
     position: relative;
-    max-width: 300px;
+    max-width: 400px;
     width: 100%;
-    object-position: 100% center;
-    display: block;
 }
 
 .imagenesChicas
 {
-    width: 72px;
-    height: 59px;
-    object-fit: cover;
-    float: right;
+    object-fit: contain;
+    padding-top: 10px;
+    padding-left: 0px;
 }
 
 @media only screen and (max-width:1200px)
@@ -210,7 +219,7 @@
 
     .imagenesChicas
     {
-        width: 50%;
+        width: 33%;
         height: auto;
     }
 
@@ -236,7 +245,19 @@
         height: inherit;
         left: 0px;
         max-width: 100%;
+    }
 
+    .s4
+    {
+        margin-left: 0px;
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    .padding-none
+    {
+        padding-right: 0px;
+        padding-left: 0px;
     }
 
     .w3-content
@@ -581,10 +602,7 @@
 
     .imagenesDetalle
     {
-        max-width: 80%;
         width: 100%;
-        object-position: inherit;
-        left: 10%;
     }
 }
 
@@ -592,8 +610,7 @@
 {
     .carroComprar
     {
-        right: -92px;
-        top: 6px;
+        top: 28px;
         width: 131px;
     }
 
@@ -606,12 +623,6 @@
 
 @media only screen and (max-width: 375px)
 {
-    .carroComprar
-    {
-        right: -150px;
-        top: -26px;
-    }
-
     .boton-comprar-detalle
     {
         top: 28px;
@@ -642,12 +653,6 @@
 
 @media only screen and (max-width: 320px)
 {
-    .imagenesDetalle
-    {
-        margin-right: -16%;
-        width: 150%;
-    }
-
     .boton-comprar-detalle
     {
         width: 40%;
@@ -660,20 +665,6 @@
     .Det
     {
         margin-left: 0% !important;
-    }
-
-    .w3-col.s4
-    {
-        margin-left: 34%;
-    }
-
-    .imagenesChicas
-    {
-        width: 49px;
-        height: 50px;
-        object-fit: cover;
-        margin-left: 9px;
-        margin-top: 10px;
     }
 
     .carroComprar
