@@ -469,64 +469,64 @@
 {
     .modalCarrito
     {
-        width: 100% !important;
+        width: 100%;
     }
 
     .cant
     {
-        left: 5% !important;
+        left: 5%;
     }
 
     .precios
     {
-        top: 13% !important;
-        left: 2% !important;
+        top: 13%;
+        left: 2%;
     }
 
     .marca_producto
     {
-        left: 27% !important;
+        left: 27%;
     }
 
     .titulos
     {
-        font-size: smaller !important;
+        font-size: smaller;
     }
 
     .canti
     {
-        position: absolute !important;
-        left: 14% !important;
+        position: absolute;
+        left: 14%;
     }
 
     .botones
     {
-        width: 100px !important;
+        width: 100px;
     }
 
     .compra
     {
-        float: right !important;
+        float: right;
     }
 
     .boton_menos
     {
-        left: 62.5% !important;
+        left: 62.5%;
     }
 
     .basurero
     {
-        margin-top: -11% !important;
+        margin-top: -11%;
     }
 
     .money
     {
-        right: 13% !important;
+        right: 13%;
     }
 
     #eh
     {
-        margin-right: 0% !important;
+        margin-right: 0%;
     }
 }
 
@@ -534,18 +534,18 @@
 {
     .modal-content
     {
-        width: 190% !important;
+        width: 190%;
     }
 
     #eh
     {
-        margin-top: -12% !important;
-        margin-right: 4% !important;
+        margin-top: -12%;
+        margin-right: 4%;
     }
 
     .money
     {
-        margin-right: -36% !important;
+        margin-right: -36%;
     }
 }
 
@@ -553,34 +553,34 @@
 {
     .nombre_producto
     {
-        width: 27% !important;
-        margin-left: 28% !important;
-        font-size: 10px !important;
+        width: 27%;
+        margin-left: 28%;
+        font-size: 10px;
     }
 
     .quantity
     {
-        font-size: 10px !important;
+        font-size: 10px;
     }
 
     .total_productos
     {
-        font-size: 10px !important;
-        margin-top: -26px !important;
+        font-size: 10px;
+        margin-top: -26px;
     }
 
     #eh
     {
-        margin-right: -1% !important;
+        margin-right: -1%;
     }
 
     .botones
     {
-        width: 100px !important;
+        width: 100px;
     }
 
     .moneyProducto
     {
-        font-size: 10px !important;
+        font-size: 10px;
     }
 }
