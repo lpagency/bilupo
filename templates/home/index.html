@@ -3,18 +3,19 @@
 {{ site.name }}
 {% end %}
 {% block head %}
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" /> {% end %}
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+{% end %}
 
 {% block header %}
-  {% include ../home/header.html %}
+    {% include ../home/header.html %}
 {% end %} 
 
 {% block css%}
-<link rel="stylesheet" type="text/css" href="{{ site_base }}/common/js/bower/bodegas.client/dist/bodegas.client.css">
-<link rel="stylesheet" type="text/css" href="{{ site_base }}/{{ nocache_static }}/style.css">
-<link rel="stylesheet" type="text/css" href="{{ site_base }}/{{ nocache_static }}/index.css">
-
+    <link rel="stylesheet" type="text/css" href="{{ site_base }}/common/js/bower/bodegas.client/dist/bodegas.client.css">
+    <link rel="stylesheet" type="text/css" href="{{ site_base }}/{{ nocache_static }}/style.css">
+    <link rel="stylesheet" type="text/css" href="{{ site_base }}/{{ nocache_static }}/index.css">
 {% end %} 
+
 {% block body %} 
 {% if is_admin %} 
 {% set editabletext = 'editabletext' %} 
