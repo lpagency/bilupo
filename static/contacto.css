@@ -44,8 +44,8 @@
 .total-line
 {
     width: 90%;
-    height: 2px !important;
-    background-color: #E53623 !important;
+    height: 2px;
+    background-color: #E53623;
     margin-top: 60px;
 }
 
@@ -60,7 +60,7 @@
     position: absolute;
 }
 
-.product-title
+.product-title-cart
 {
     margin-left: -78%;
 }
@@ -79,8 +79,8 @@
 .cart-line
 {
     width: 86%;
-    height: 1px !important;
-    background-color: #E53623 !important;
+    height: 1px;
+    background-color: #E53623;
     position: relative;
     top: 10px;
 }
@@ -201,7 +201,7 @@
     color: #E53623;
 }
 
-#busca2
+.botones
 {
     background: #94b7bb;
     border: 0px;
@@ -217,7 +217,7 @@
     margin-top: 2%;
 }
 
-#busca2:hover
+.botones:hover
 {
     background: #E53623;
 }
@@ -237,23 +237,23 @@
     margin-left: 5%;
 }
 
-#basura
+.basurero
 {
     z-index: 1;
     float: right;
     margin-right: -27%;
 }
 
-#basura:hover
+.basurero:hover
 {
-    margin-top: -12% !important;
-    margin-right: -40% !important;
-    border-radius: 50% !important;
+    margin-top: -12%;
+    margin-right: -40%;
+    border-radius: 50%;
     background: #EAEAEA;
     width: 40px;
     height: 40px;
-    padding-left: 23% !important;
-    padding-top: 13% !important;
+    padding-left: 23%;
+    padding-top: 13%;
 }
 
 .titulo1
@@ -263,8 +263,8 @@
 
 .estilo
 {
-    font-size: 12px !important;
-    letter-spacing: 0.1em !important;
+    font-size: 12px;
+    letter-spacing: 0.1em;
     color: #E53623;
 }
 
@@ -275,7 +275,7 @@
     position: relative;
     left: 13%;
     border-style: none;
-    background-color: #94b7bb !important;
+    background-color: #94b7bb;
     color: white;
     font-family: 'Open Sans', sans-serif;
     text-rendering: optimizeLegibility;
@@ -294,7 +294,7 @@
     position: relative;
     left: 13%;
     border-style: none;
-    background-color: #94b7bb !important;
+    background-color: #94b7bb;
     color: white;
     font-family: 'Open Sans', sans-serif;
     text-rendering: optimizeLegibility;
@@ -313,23 +313,20 @@
 
 .regl
 {
-    background-color: #E53623 !important;
+    background-color: #E53623;
 }
 
 .ref
 {
-    background-color: transparent !important;
-    color: black !important;
+    background-color: transparent;
+    color: black;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
 }
 
 .ref:hover
 {
-    background-color: transparent !important;
-    color: #E53623 !important;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    color: #E53623;
 }
 
 .ordena-position
@@ -349,8 +346,8 @@
 
 .ordenar-text
 {
-    width: 142px !important;
-    height: 22px !important;
+    width: 142px;
+    height: 22px;
 }
 
 #barra:hover
@@ -403,45 +400,40 @@
 
     .nombre_producto
     {
-        width: 100px !important;
-        margin-left: 26% !important;
-    }
-
-    .quantity
-    {
-        font-size: 17px !important;
+        width: 100px;
+        margin-left: 26%;
     }
 
     .total_producto
     {
-        font-size: 13px !important;
-        margin-top: -34px !important;
-        margin-left: 74% !important;
+        font-size: 13px;
+        margin-top: -34px;
+        margin-left: 74%;
     }
 
     .basurero
     {
-        margin-right: 4% !important;
+        margin-right: 4%;
     }
 
     .producto
     {
-        left: -45% !important;
+        left: -45%;
     }
 
     .estilo
     {
-        font-size: 9px !important;
+        font-size: 9px;
     }
 
     .money
     {
-        right: 15% !important;
+        right: 15%;
     }
 
     .botones
     {
-        width: 122px !important;
+        width: 122px;
     }
 }
 
@@ -449,12 +441,12 @@
 {
     .linea
     {
-        width: 100% !important;
+        width: 100%;
     }
 
     .escribanos
     {
-        margin-left: 2.6% !important;
+        margin-left: 2.6%;
     }
 
     .contenidoContacto
@@ -522,7 +514,7 @@
         left: 62.5% !important;
     }
 
-    #basura
+    .basurero
     {
         margin-top: -11% !important;
     }
