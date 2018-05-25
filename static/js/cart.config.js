@@ -87,6 +87,7 @@ $(document).ready(function()
         'https://pay.loadingplay.com');
     var app_public = $.environmentVar(42, 42, 42);
     var site_name = $.environmentVar('bilupo', 'bilupo', 'bilupo');
+    var random_seed = 'random('+Math.random()+')';
 
     window.config =
     {
@@ -99,6 +100,7 @@ $(document).ready(function()
         'animation': 'ghost',
         'checkout_url': checkout_url,
         'analytics': true,
+        'column' : random_seed,
         'operator': 'or',
         'no_products_template': '<span class="fuentes2" >Lo sentimos!, no tenemos juguetes con estos filtros. Intenta cambiando alguno de los filtros de busqueda.</span>',
         'onLoad': function(products)
