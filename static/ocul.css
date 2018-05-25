@@ -219,7 +219,7 @@
 
     .imagenesChicas
     {
-        width: 50%;
+        width: 33%;
         height: auto;
     }
 
@@ -245,7 +245,19 @@
         height: inherit;
         left: 0px;
         max-width: 100%;
+    }
 
+    .s4
+    {
+        margin-left: 0px;
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    .padding-none
+    {
+        padding-right: 0px;
+        padding-left: 0px;
     }
 
     .w3-content
