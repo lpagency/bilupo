@@ -547,6 +547,11 @@ body
         margin-left: 0%;
         width: 100%;
     }
+
+    .ordenar-text
+    {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 375px)
@@ -558,12 +563,12 @@ body
 
     #titulo_producto
     {
-        width: 12em;
+        width: 100%;
     }
 
     .price
     {
-        margin-left: 20%;
+        margin-left: 0%;
     }
 
     .buscador
@@ -614,7 +619,7 @@ body
 
     .ordena-position
     {
-        right: 5%;
+        left: 4%;
     }
 
     .boton-ordenar
