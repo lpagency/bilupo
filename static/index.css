@@ -13,7 +13,7 @@ a:focus
 
 #senior:hover
 {
-    content: url("{{ site_base }}/{{ nocache_static }}/img/gif/senior.gif");
+    content: url("https://cdn.loadingplay.com/static/images/1fc624729f3506d961ef806b581f7895_senior.gif");
     width: 100% !important;
     margin-top: 0px !important;
     margin-left: 0px !important;
@@ -28,7 +28,7 @@ a:focus
 
 #gallina:hover
 {
-    content: url("{{ site_base }}/{{ nocache_static }}/img/gif/Gallina.gif");
+    content: url("https://cdn.loadingplay.com/static/images/de8351b5194a82adf196f7c8767bc689_Gallina.gif");
     width: 100% !important;
     margin-top: 0px !important;
     margin-left: 0px !important;
@@ -43,7 +43,7 @@ a:focus
 
 #elefante:hover
 {
-    content: url("{{ site_base }}/{{ nocache_static }}/img/gif/Elefante_2.gif");
+    content: url("https://cdn.loadingplay.com/static/images/cf9cd39c08fb2730f8200bde35395e5a_Elefante_.gif");
     width: 100% !important;
     margin-top: 0px !important;
     margin-left: 0px !important;
@@ -58,7 +58,7 @@ a:focus
 
 #pez:hover
 {
-    content: url("{{ site_base }}/{{ nocache_static }}/img/gif/Pez.gif");
+    content: url("https://cdn.loadingplay.com/static/images/51d7115165c9097970bff12bc713d578_Pez.gif");
     width: 95% !important;
     margin-top: -10% !important;
     margin-left: -4% !important;
@@ -73,7 +73,7 @@ a:focus
 
 #camion:hover
 {
-    content: url("{{ site_base }}/{{ nocache_static }}/img/gif/camion.gif");
+    content: url("https://cdn.loadingplay.com/static/images/763b850ce49d14e1905c0cb2c28349f2_camion.gif");
     width: 100% !important;
     margin-top: 0px !important;
     margin-left: 0px !important;
@@ -89,7 +89,7 @@ a:focus
 
 #avion:hover
 {
-    content: url("{{ site_base }}/{{ nocache_static }}/img/gif/Avion.gif");
+    content: url("https://cdn.loadingplay.com/static/images/c9796145f5295ff6be5e48f30450d58d_Avion.gif");
     width: 100% !important;
     margin-top: 0px !important;
     margin-left: 0px !important;
