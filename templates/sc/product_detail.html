@@ -115,12 +115,15 @@
                 showDivs(slideIndex);
 
                 // init slide button
-                $('#boton_slide').on('click', function() {
+                $('#boton_slide').on('click', function()
+                {
                     plusDivs(1);
                 });
 
                 if(products.promotion_price > 0)
                 {
+                    $(".boton-comprar-detalle").attr("product-price", products.promotion_price);
+                    $(".carroComprar").attr("product-price", products.promotion_price);
                     $(".main-price").css("text-decoration", "line-through");
                     $(".main-price").css("font-size", "12px");
                     $(".promotion-price").removeClass("hidden");
