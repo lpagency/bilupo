@@ -201,6 +201,7 @@
     position: relative;
     max-width: 400px;
     width: 100%;
+    height: 400px;
 }
 
 .imagenesChicas
@@ -239,6 +240,12 @@
     .detallesDesc
     {
         margin-left: 26.5%;
+    }
+
+    .categoriasProd.mik
+    {
+        margin-top: 20px;
+        text-align: left;
     }
 
     .imagenesDetalle
@@ -605,6 +612,17 @@
     .imagenesDetalle
     {
         width: 100%;
+        height: 320px;
+    }
+
+    .imagenesChicas
+    {
+        height: 100px;
+    }
+
+    .boton-comprar-detalle
+    {
+        margin-left: 3%;
     }
 }
 
@@ -650,6 +668,26 @@
     .detallesDesc
     {
         margin-left: 4.5%;
+    }
+}
+
+@media only screen and (max-width: 360px)
+{
+    .carroComprar
+    {
+        width: 41%;
+        right: -77px;
+        top: 5px;
+        font-size: 9px;
+    }
+
+    .boton-comprar-detalle
+    {
+        width: 40%;
+        font-size: 11px;
+        margin-left: 29%;
+        top: 0px;
+        margin-bottom: 10px;
     }
 }
 
