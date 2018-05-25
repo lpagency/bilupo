@@ -294,7 +294,7 @@ ul.topnav li.icon
 
     .header-cantidad
     {
-        font-size: 31px !important;
+        font-size: 31px;
     }
 
     ul.topnav li:not(:first-child)
@@ -367,7 +367,6 @@ ul.topnav li.icon
 
     .carro
     {
-        content: url("https://84static.loadingplay.com/static/images/b059a570c9fb16870565db099142e0b0_canasto-rojo.png") !important;
         margin-top: 20px;
     }
     
@@ -382,10 +381,9 @@ ul.topnav li.icon
 {
     .carro
     {
-        content: url(https://84static.loadingplay.com/static/images/b059a570c9fb16870565db099142e0b0_canasto-rojo.png) !important;
         margin-top: 13px;
         margin-right: 2%;
-        top: 6% !important;
+        top: 6%;
     }
 }
 
@@ -403,7 +401,7 @@ ul.topnav li.icon
 
     .carro
     {
-        top: 28px !important;
+        top: 25px;
     }
 }
 
@@ -411,9 +409,15 @@ ul.topnav li.icon
 {
     .carro
     {
-        content: url(https://84static.loadingplay.com/static/images/b059a570c9fb16870565db099142e0b0_canasto-rojo.png) !important;
         margin-top: 1px;
         margin-right: 9%;
+        width: 7%;
+    }
+
+    .header-cantidad
+    {
+        top: 5px;
+        position: relative;
     }
 }
 
