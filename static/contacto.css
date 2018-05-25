@@ -18,6 +18,14 @@
     background-color:rgba(223, 234, 235, 0.5);
 }
 
+#trash-div
+{
+    z-index: 1;
+    float: right;
+    margin-right: 5%;
+    margin-top: -7%;
+}
+
 .total-title
 {
     color: #E53623;
@@ -524,7 +532,7 @@
         right: 13%;
     }
 
-    #eh
+    #trash-div
     {
         margin-right: 0%;
     }
@@ -532,20 +540,50 @@
 
 @media only screen and (max-width: 568px)
 {
-    .modal-content
+    #trash-div
     {
-        width: 190%;
+        margin-top: -8%;
+        margin-right: 4%;
     }
 
-    #eh
+    .btn-footer
     {
-        margin-top: -12%;
-        margin-right: 4%;
+        margin-top: 7px;
     }
 
     .money
     {
         margin-right: -36%;
+    }
+
+    .modalCarrito
+    {
+        width: 95%;
+    }
+
+    .canti
+    {
+        left: 0%;
+        top: 3px;
+        position: relative;
+    }
+
+    .boton_redondo
+    {
+        position: relative;
+        top: 6px;
+        left: -10px;
+        margin-right: 5px;
+    }
+
+    .titulos
+    {
+        font-size: 9px;
+    }
+
+    .total_producto
+    {
+        margin-top: -22px;
     }
 }
 
@@ -569,7 +607,7 @@
         margin-top: -26px;
     }
 
-    #eh
+    #trash-div
     {
         margin-right: -1%;
     }
