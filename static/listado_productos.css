@@ -433,6 +433,9 @@ body
     .carritoCompra
     {
         margin-top: -5%;
+        position: absolute;
+        left: 230px;
+        top: 253px;
     }
 
     #titulo_producto
