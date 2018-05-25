@@ -239,13 +239,18 @@
 {
     .detallesDesc
     {
-        margin-left: 26.5%;
+        margin-left: 23%;
     }
 
     .categoriasProd.mik
     {
         margin-top: 20px;
         text-align: left;
+    }
+
+    .product-detail.container
+    {
+        margin-left: 4.5%;
     }
 
     .imagenesDetalle
@@ -273,32 +278,9 @@
         margin-left: 23%;
     }
 
-    .precioDetalle
-    {
-        margin-left: 32%;
-    }
-
     .boton-comprar-detalle
     {
-        margin-left: 9%;
-    }
-
-    .cont
-    {
-        margin-right: 15%;
-    }
-
-    .ver-mas-desc
-    {
-        margin-left: 28%;
-    }
-}
-
-@media only screen and (max-width:768px)
-{
-    .boton-comprar-detalle
-    {
-        margin-left: 30%;
+        margin-left: 17%;
     }
 
     .name-line
@@ -311,6 +293,59 @@
         text-align: center;
     }
 
+    .cont
+    {
+        margin-right: 15%;
+    }
+
+    .ver-mas-desc
+    {
+        margin-left: 0%;
+    }
+
+    .detail-price
+    {
+        text-align: center;
+    }
+
+    .clearfix-detail
+    {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:768px)
+{
+    .boton-comprar-detalle
+    {
+        margin-left: 27.5%;
+    }
+
+    .detail-price
+    {
+        right: 7px;
+        position: relative;
+    }
+
+    .clearfix-detail
+    {
+        margin: 0px 194px 0px 166px;
+    }
+
+    .name-line
+    {
+        text-align: center;
+        position: relative;
+        right: 7px;
+    }
+
+    .toy
+    {
+        text-align: center;
+        position: relative;
+        right: 7px;
+    }
+
     .categoriasProd.mik
     {
         margin-left: 26%;
@@ -319,7 +354,7 @@
 
     .product-detail.container
     {
-        margin-left: 0;
+        margin-left: 26px;
     }
 
     .cont
@@ -355,11 +390,6 @@
     {
         margin-left: 0%;
         text-align: center;
-    }
-
-    .ver-mas-desc
-    {
-        margin-left: 42%;
     }
 }
 
@@ -586,6 +616,11 @@
         top: 10px;
         position: relative;
     }
+
+    .modal-detalle
+    {
+        width: 95%;
+    }
 }
 
 @media only screen and (max-width: 414px)
@@ -622,7 +657,30 @@
 
     .boton-comprar-detalle
     {
-        margin-left: 3%;
+        margin-left: 5%;
+    }
+
+    .name-line
+    {
+        position: inherit;
+        right: inherit;
+    }
+
+    .toy
+    {
+        position: inherit;
+        right: inherit;
+    }
+
+    .detail-price
+    {
+        position: inherit;
+        right: inherit;
+    }
+
+    .clearfix-detail
+    {
+        margin: 0px;
     }
 }
 
