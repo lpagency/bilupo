@@ -542,8 +542,9 @@
 {
     #trash-div
     {
-        margin-top: -8%;
-        margin-right: 4%;
+        position: relative;
+        left: 120px;
+        margin-top: -43px;
     }
 
     .btn-footer
@@ -561,19 +562,13 @@
         width: 95%;
     }
 
-    .canti
-    {
-        left: 0%;
-        top: 3px;
-        position: relative;
-    }
-
     .boton_redondo
     {
         position: relative;
-        top: 6px;
-        left: -10px;
+        top: -8px;
+        left: 0px;
         margin-right: 5px;
+        font-size: 25px !important;
     }
 
     .titulos
@@ -583,7 +578,15 @@
 
     .total_producto
     {
-        margin-top: -22px;
+        margin-top: -38px;
+    }
+
+    .canti
+    {
+        left: 0%;
+        top: 3px;
+        position: relative;
+        font-size: 15px;
     }
 }
 
