@@ -590,6 +590,20 @@
     }
 }
 
+@media only screen and (max-width: 414px)
+{
+    #trash-div
+    {
+        left: 106px;
+        margin-top: -26px;
+    }
+
+    .total_producto
+    {
+        margin-top: -22px;
+    }
+}
+
 @media only screen and (max-width: 375px)
 {
     .nombre_producto
