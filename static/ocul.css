@@ -654,6 +654,26 @@
     }
 }
 
+@media only screen and (max-width: 360px)
+{
+    .carroComprar
+    {
+        width: 41%;
+        right: -77px;
+        top: 5px;
+        font-size: 9px;
+    }
+
+    .boton-comprar-detalle
+    {
+        width: 40%;
+        font-size: 11px;
+        margin-left: 29%;
+        top: 0px;
+        margin-bottom: 10px;
+    }
+}
+
 @media only screen and (max-width: 320px)
 {
     .boton-comprar-detalle
