@@ -108,6 +108,7 @@ $(document).ready(function()
             {
                 if (products[x].promotion_price != 0)
                 {
+                    $(".cart-list." + products[x].sku).attr("product-price", products[x].promotion_price);
                     $(".promotion-price." + products[x].sku).removeClass('hidden');
                     $(".main-price." + products[x].sku).css('font-size', '10px');
                     $(".main-price." + products[x].sku).css('text-decoration', 'line-through');
