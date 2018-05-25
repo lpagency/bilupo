@@ -525,6 +525,28 @@ body
     {
         width: 100%;
     }
+
+    .caja-productos
+    {
+        width: 100%;
+    }
+
+    .img-re
+    {
+        width: 100%;
+    }
+
+    #titulo_producto
+    {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .price
+    {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 375px)

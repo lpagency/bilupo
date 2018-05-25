@@ -1,23 +1,281 @@
 @import url('https://fonts.googleapis.com/css?family=Damion');
-#enviar{
-	margin-left: 60%;
-	background:#94b7bb; 
-	border: 0px;
-	color: white;
-	width: 18%;
+#enviar
+{
+    margin-left: 60%;
+    background: #94b7bb;
+    border: 0px;
+    color: white;
+    width: 18%;
     height: 30px;
     font-family: 'Open Sans', sans-serif;
     text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased; 
+    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.more-products{
+
+.modal-carro
+{
+    background-color:rgba(223, 234, 235, 0.5);
+}
+
+.total-title
+{
+    color: #E53623;
+    margin-left: 5%;
+    font-size: 16px;
+    letter-spacing: 0.025em;
+    position: absolute;
+    bottom: 44px;
+}
+
+.info-title
+{
+    color: #E53623;
+    margin-left: 5%;
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 0.025em;
+    font-size: 12px;
+    margin-top: -18px;
+}
+
+.total-line
+{
+    width: 90%;
+    height: 2px;
+    background-color: #E53623;
+    margin-top: 60px;
+}
+
+.money
+{
+    color: #E53623;
+    font-weight: bold;
+    right: 100px;
+    font-size: 16px;
+    letter-spacing: 0.025em;
+    bottom: 50px;
+    position: absolute;
+}
+
+.product-title-cart
+{
+    margin-left: -78%;
+}
+
+.btn-go-back
+{
+    margin-top: 6.7%;
+}
+
+.btn-footer
+{
+    float: left;
+    margin-left: 5%;
+}
+
+.cart-line
+{
+    width: 86%;
+    height: 1px;
+    background-color: #E53623;
+    position: relative;
+    top: 10px;
+}
+
+.clearfix-top
+{
+    padding-top: 10px;
+}
+
+.precio
+{
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: -50%;
+    width: 40px;
+}
+
+.precios
+{
+    margin-left: 70%;
+}
+
+.cantidad
+{
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    margin: 0 auto;
+    left: 20%;
+    right: 0;
+    width: 40px;
+}
+
+.producto
+{
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    margin: 0 auto;
+    left: -70%;
+    right: 0;
+    width: 40px;
+}
+
+.nombre_producto
+{
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0 auto;
+    right: 0;
+    margin-left: 18%;
+    top: 8%;
+    width: 230px;
+    color: grey;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.marca_producto
+{
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0 auto;
+    left: -15%;
+    right: 0;
+    top: 20%;
+    width: 350px;
+    color: grey;
+    font-size: 11px;
+    letter-spacing: 0.025em;
+}
+
+.cantidad_producto
+{
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: 59%;
+    right: 0;
+    width: 50px;
+    margin-top: -6%;
+    margin-bottom: 3%;
+}
+
+.total_producto
+{
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: 73%;
+    width: 40px;
+    margin-top: -40px;
+    position: absolute;
+    font-size: 16px;
+}
+
+.boton_redondo
+{
+    float: right;
+    font-size: large;
+    color: #E53623;
+}
+
+.botones
+{
+    background: #94b7bb;
+    border: 0px;
+    color: white;
+    width: 160px;
+    height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    letter-spacing: 0.025em;
+    margin-top: 2%;
+}
+
+.botones:hover
+{
+    background: #E53623;
+}
+
+.modal-dialog
+{
+    width: 50%;
+}
+
+.modal-title
+{
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: grey;
+    margin-left: 5%;
+}
+
+.basurero
+{
+    z-index: 1;
+    float: right;
+    margin-right: -27%;
+}
+
+.basurero:hover
+{
+    margin-top: -12%;
+    margin-right: -40%;
+    border-radius: 50%;
+    background: #EAEAEA;
+    width: 40px;
+    height: 40px;
+    padding-left: 23%;
+    padding-top: 13%;
+}
+
+.titulo1
+{
+    letter-spacing: 0.05em;
+}
+
+.estilo
+{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: #E53623;
+}
+
+.more-products
+{
     border-radius: 0px;
     display: block;
     position: relative;
     left: 13%;
     border-style: none;
-    background-color: #94b7bb !important;
+    background-color: #94b7bb;
     color: white;
     font-family: 'Open Sans', sans-serif;
     text-rendering: optimizeLegibility;
@@ -28,13 +286,15 @@
     letter-spacing: 0.1em;
     background-image: none;
 }
-.more-products:hover{
+
+.more-products:hover
+{
     border-radius: 0px;
     display: block;
     position: relative;
     left: 13%;
     border-style: none;
-    background-color: #94b7bb !important;
+    background-color: #94b7bb;
     color: white;
     font-family: 'Open Sans', sans-serif;
     text-rendering: optimizeLegibility;
@@ -45,87 +305,282 @@
     letter-spacing: 0.1em;
     background-image: none;
 }
-#enviar:hover{
-	background-color: #E53623;
+
+#enviar:hover
+{
+    background-color: #E53623;
 }
 
-.regl{
-	background-color: #E53623 !important;
+.regl
+{
+    background-color: #E53623;
 }
 
-.ref{
-	background-color: transparent !important;
-	color: black !important;
-	font-family: 'Open Sans',sans-serif;
+.ref
+{
+    background-color: transparent;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
 }
 
-.ref:hover{
-	background-color: transparent !important;
-	color: #E53623 !important;
-	font-family: 'Open Sans',sans-serif;
-    font-size: 12px;
+.ref:hover
+{
+    color: #E53623;
 }
 
-.ordena-position{
-	float: right;
+.ordena-position
+{
+    float: right;
     position: relative;
     top: 45px;
     right: -12%;
     z-index: 99;
 }
 
-.drop-ordenar{
-	left: -118%;
+.drop-ordenar
+{
+    left: -118%;
     top: -22px;
 }
 
-.ordenar-text{
-	width: 142px !important;
-    height: 22px !important;
+.ordenar-text
+{
+    width: 142px;
+    height: 22px;
 }
 
-#barra:hover{
-	color: #E53623;
+#barra:hover
+{
+    color: #E53623;
 }
-#enviar2{
-	margin-left: 60%;
-	background:#94b7bb; 
-	border: 0px;
-	color: white;
-	width: 10%;
+
+#enviar2
+{
+    margin-left: 60%;
+    background: #94b7bb;
+    border: 0px;
+    color: white;
+    width: 10%;
 }
-#enviar2:hover{
-	background-color: #E53623;
+
+#enviar2:hover
+{
+    background-color: #E53623;
 }
-#enviar3{
-	font-size: 13px;
-	letter-spacing: 1px;
-	margin-left: 65%;
-	background:#94b7bb; 
-	border: 0px;
-	color: white;
-	width: 11%;
+
+#enviar3
+{
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-left: 65%;
+    background: #94b7bb;
+    border: 0px;
+    color: white;
+    width: 11%;
     height: 30px;
     font-family: 'Open Sans', sans-serif;
     text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased; 
+    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-@media screen and (max-width: 1024px){
-	.linea{
-		width: 100% !important;
-	}
-	.escribanos{
-		margin-left: 2.6% !important;
-	}
-	.contenidoContacto{
-		margin-left: 0%;
-	}
-	#enviar3{
-		margin-left: 87%;
-	}
-	.tituloContacto{
-		right: 73%;
-	}
+
+@media only screen and (max-width: 1200px)
+{
+    .boton_redondo
+    {
+        position: absolute;
+    }
+
+    .boton_menos
+    {
+        top: 25%;
+        left: 62.7%;
+    }
+
+    .nombre_producto
+    {
+        width: 100px;
+        margin-left: 26%;
+    }
+
+    .total_producto
+    {
+        font-size: 13px;
+        margin-top: -34px;
+        margin-left: 74%;
+    }
+
+    .basurero
+    {
+        margin-right: 4%;
+    }
+
+    .producto
+    {
+        left: -45%;
+    }
+
+    .estilo
+    {
+        font-size: 9px;
+    }
+
+    .money
+    {
+        right: 15%;
+    }
+
+    .botones
+    {
+        width: 122px;
+    }
+}
+
+@media screen and (max-width: 1024px)
+{
+    .linea
+    {
+        width: 100%;
+    }
+
+    .escribanos
+    {
+        margin-left: 2.6%;
+    }
+
+    .contenidoContacto
+    {
+        margin-left: 0%;
+    }
+
+    #enviar3
+    {
+        margin-left: 87%;
+    }
+
+    .tituloContacto
+    {
+        right: 73%;
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+    .modalCarrito
+    {
+        width: 100%;
+    }
+
+    .cant
+    {
+        left: 5%;
+    }
+
+    .precios
+    {
+        top: 13%;
+        left: 2%;
+    }
+
+    .marca_producto
+    {
+        left: 27%;
+    }
+
+    .titulos
+    {
+        font-size: smaller;
+    }
+
+    .canti
+    {
+        position: absolute;
+        left: 14%;
+    }
+
+    .botones
+    {
+        width: 100px;
+    }
+
+    .compra
+    {
+        float: right;
+    }
+
+    .boton_menos
+    {
+        left: 62.5%;
+    }
+
+    .basurero
+    {
+        margin-top: -11%;
+    }
+
+    .money
+    {
+        right: 13%;
+    }
+
+    #eh
+    {
+        margin-right: 0%;
+    }
+}
+
+@media only screen and (max-width: 568px)
+{
+    .modal-content
+    {
+        width: 190%;
+    }
+
+    #eh
+    {
+        margin-top: -12%;
+        margin-right: 4%;
+    }
+
+    .money
+    {
+        margin-right: -36%;
+    }
+}
+
+@media only screen and (max-width: 375px)
+{
+    .nombre_producto
+    {
+        width: 27%;
+        margin-left: 28%;
+        font-size: 10px;
+    }
+
+    .quantity
+    {
+        font-size: 10px;
+    }
+
+    .total_productos
+    {
+        font-size: 10px;
+        margin-top: -26px;
+    }
+
+    #eh
+    {
+        margin-right: -1%;
+    }
+
+    .botones
+    {
+        width: 100px;
+    }
+
+    .moneyProducto
+    {
+        font-size: 10px;
+    }
 }
