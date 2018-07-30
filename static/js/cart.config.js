@@ -85,7 +85,7 @@ $(document).ready(function()
         'https://lpcheckout.ondev.today/',
         'https://lpcheckout.ondev.today/',
         'https://pay.loadingplay.com');
-    var app_public = $.environmentVar(42, 42, 42);
+    var app_public = $.environmentVar('bilupo', 'bilupo', 'bilupo');
     var site_name = $.environmentVar('bilupo', 'bilupo', 'bilupo');
     var random_seed = 'random('+Math.random()+')';
 
