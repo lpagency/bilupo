@@ -17,13 +17,13 @@
 </script>
 <script type="text/javascript">
     // embed checkout
-    (function(iframe, cart_cookie, site_id, base)
+    (function(iframe, cart_cookie, site_name, base)
     {
         // get cookie
         var aux_cookie = document.cookie.split(';');
         var cookie = '';
         var iframe = $(iframe);  // convert to jquery elememt
-        var checkout = '/?site_id=' + site_id;
+        var checkout = '/?site_name=' + site_name;
 
         // get cookie
         for (var i = 0; i < aux_cookie.length; i++)
@@ -40,12 +40,12 @@
         iframe.attr('src', base + checkout + '&cart_id=' + cookie + '&embed=true');
 
 
-    })('iframe.checkout', 'shopping-cart', 
-    $.environmentVar('42','42','42'), 
+    })('iframe.checkout', 'shopping-cart',
+    $.environmentVar('bilupo','bilupo','bilupo'),
     $.environmentVar('https://pay.loadingplay.com', 'https://lpcheckout.ondev.today', 'https://pay.loadingplay.com'));
 
 </script>
-{% end %} 
+{% end %}
 
 {% block body %}
 {% if is_admin %}
